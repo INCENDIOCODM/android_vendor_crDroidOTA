@@ -1,7 +1,11 @@
 Highlights & Device Specific Changes:
-Build type: BETA
+Build type: Monthly
 Device: Mi 11X Pro
 Device maintainer: Vinayak
+
+===== 17-12-2024 =====
+- Synced Latest Source
+- Leica Camera included
 
 ===== 08-11-2024 =====
 - initial release 
