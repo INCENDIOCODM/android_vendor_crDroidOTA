@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Zed (Zed9K)",
-			"oem": "OnePlus",
-			"device": "OnePlus 5T",
-			"filename": "crDroidAndroid-15.0-20241209-dumpling-v11.0-BETA.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/dumpling/11.x/crDroidAndroid-15.0-20241209-dumpling-v11.0-BETA.zip/download",
-			"timestamp": 1733716529,
-			"md5": "e89ee73fd1661232c6f319184f41e278",
-			"sha256": "a8c3e016bd282e74bfee8b66aee9ea8106b1f93cae4cce0b660ad7454ae894bf",
-			"size": 1140438470,
-			"version": "11.0",
-			"buildtype": "BETA",
-			"forum": "https://xdaforums.com/t/rom-15-0-official-oneplus-5-5t-crdroid-android-11-0-beta-09-nov-2024.4671653/",
-			"gapps": "https://sourceforge.net/projects/nikgapps/files/",
-			"firmware": "https://sourceforge.net/projects/lineageos-cheeseburger/files/firmware/",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://twrp.me/oneplus/oneplus5-5t.html",
-			"paypal": "https://paypal.me/aodx",
-			"telegram": "https://t.me/ZedROMs",
-			"dt": "https://github.com/crdroidandroid/android_device_oneplus_dumpling",
-			"common-dt": "https://github.com/crdroidandroid/android_device_oneplus_msm8998-common",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_oneplus_msm8998"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "Zed (Zed9K)",
+            "oem": "OnePlus",
+            "device": "OnePlus 5T",
+            "filename": "crDroidAndroid-15.0-20250212-dumpling-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/dumpling/11.x/crDroidAndroid-15.0-20250212-dumpling-v11.2.zip/download",
+            "timestamp": 1739384440,
+            "md5": "07bdf6fa219d36d0446dabfb3c4ede67",
+            "sha256": "22ce2f2e5abbb1fb626fd5f7f86b5b1495d9dd3fc4163c22bfbf97cebb0c22aa",
+            "size": 1161338317,
+            "version": "11.2",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-15-0-official-oneplus-5-5t-crdroid-android-11-0-beta-09-nov-2024.4671653/",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/",
+            "firmware": "https://sourceforge.net/projects/lineageos-cheeseburger/files/firmware/",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://twrp.me/oneplus/oneplus5-5t.html",
+            "paypal": "https://www.paypal.me/AbdelrahmanAlRefai",
+            "telegram": "https://t.me/ZedROMs",
+            "dt": "https://github.com/crdroidandroid/android_device_oneplus_dumpling",
+            "common-dt": "https://github.com/crdroidandroid/android_device_oneplus_msm8998-common",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_oneplus_msm8998"
+        }
+    ]
 }

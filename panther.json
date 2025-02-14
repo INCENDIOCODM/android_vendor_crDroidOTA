@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Vikas(Vikas_2_0)",
-			"oem": "Google",
-			"device": "Pixel 7",
-			"filename": "crDroidAndroid-15.0-20241124-panther-v11.0-BETA.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/panther/11.x/crDroidAndroid-15.0-20241124-panther-v11.0-BETA.zip/download",
-			"timestamp": 1732451800,
-			"md5": "cc4776fa12307fa5d578468c1e92f8d0",
-			"sha256": "042889815d58c6afc20d6d40c587f3df9d117cc55e83dc9b12814fa99b90cf67",
-			"size": 1590326712,
-			"version": "11.0",
-			"buildtype": "BETA",
-			"forum": "https://xdaforums.com/t/rom-official-panther-15-0-crdroidandroid-v11-x.4702074/",
-			"gapps": "https://s.go.ro/oigts9p2",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/panther//11.x/recovery/",
-			"paypal": "https://www.paypal.me/vikasyaduvanshii",
-			"telegram": "https://t.me/pixel7crdroid",
-			"dt": "https://github.com/crdroidandroid/android_device_google_pantah",
-			"common-dt": "https://github.com/crdroidandroid/android_device_google_gs201",
-			"kernel": "https://android.googlesource.com/device/google/pantah-kernels/5.10/"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "Vikas(Vikas_2_0)",
+            "oem": "Google",
+            "device": "Pixel 7",
+            "filename": "crDroidAndroid-15.0-20250203-panther-v11.1.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/panther/11.x/crDroidAndroid-15.0-20250203-panther-v11.1.zip/download",
+            "timestamp": 1738585860,
+            "md5": "69aac3e87e6a8291ac81ff3fede9f2c9",
+            "sha256": "82e02569fd1ad77cf0f6dcf8bcf522125debcdba4471bfa686e28c56a63f7606",
+            "size": 1567800367,
+            "version": "11.1",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-official-panther-15-0-crdroidandroid-v11-x.4702074/",
+            "gapps": "https://s.go.ro/oigts9p2",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/panther//11.x/recovery/",
+            "paypal": "https://www.paypal.me/vikasyaduvanshii",
+            "telegram": "https://t.me/pixel7crdroid",
+            "dt": "https://github.com/crdroidandroid/android_device_google_pantah",
+            "common-dt": "https://github.com/crdroidandroid/android_device_google_gs201",
+            "kernel": "https://android.googlesource.com/device/google/pantah-kernels/5.10/"
+        }
+    ]
 }

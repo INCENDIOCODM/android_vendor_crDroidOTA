@@ -1,19 +1,39 @@
 Highlights & Device Specific Changes:
-Build type: BETA / Unstable
+Build type: Monthly
 Device: Google Pixel 5a (barbet)
 Device maintainer: Bobby Panarisi (xda:306bobby git:306bobby-android)
 
 Highlights & Device Specific Changes:
-====================================
-22nd November, 2024
-=========================
-*Initial OTA for cr11
-====================================
-16th November, 2024
-=========================
-*Second beta A15 release (first for OTA)
-*Initial patches for Circle to Search ROM side
-*General ROM stability improvememts
-====================================
+=====================================
+
+===== 27th January, 2025 =====
+
+- Fixed WPA3 (speeds still slow, but it connects again!)
+- General ROM fixes and improvements
+
+===== 20th January, 2025 =====
+
+- crDroid 11.1 (QPR1) Release
+- ViperFX4Android support
+- Circle to Search properly implemented, enable in crHome Misc. settings
+
+===== 24th December, 2024 =====
+
+- Stable crDroid 11.0 release
+- Fixed WPA3 connection issue and the rest of Wi-Fi issues (WPA3 still has slow speeds)
+- *tested, need feedback!* Circle to Search PR implemented, use it by holding home pill/button!
+- Signed build - if coming from 22nd November, flash in recovery!
+
+===== 22nd November, 2024 =====
+
+- Initial OTA release for cr11
+- Same as 16th November
+
+===== 16th November, 2024 =====
+
+- Second beta A15 release
+- Initial patches for Circle to Search ROM side
+- General ROM stability improvememts
+
 
 

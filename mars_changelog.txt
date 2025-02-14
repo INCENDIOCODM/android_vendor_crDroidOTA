@@ -1,0 +1,527 @@
+====================
+     02-07-2025
+====================
+
+   * art
+701b24cf Fix the divide-by-zero in odrefresh.
+
+   * device/qcom/sepolicy_vndr/legacy-um
+e40b8c7a sepolicy: Add default permission for aidl hal_bootctl
+
+   * device/qcom/sepolicy_vndr/sm8450
+3126539a sepolicy: Add default permission for aidl hal_bootctl
+
+   * device/qcom/sepolicy_vndr/sm8550
+704bbd33 sepolicy: Add default permission for aidl hal_bootctl
+
+   * frameworks/base
+8cd987136 The binder die callback should add the wms global lock.
+646d4dfc1 Revert "Fix the potential memory leak issue caused by setExtension."
+3b54bf08b SystemUI: Implement pocket lock check for faceunlock
+c9765c71f SystemUI: Prevent indicator text cutting off in biometric prompt
+
+   * hardware/qcom-caf/bootctrl
+7f432e0 [LSC] Add LOCAL_LICENSE_KINDS to hardware/qcom/bootctrl
+b194dcc Add METADATA to bootctrl: BSD=NOTICE
+
+   * hardware/qcom-caf/sm8350/audio
+0c1ac0287 audio-hal: oob read when doing the typecase
+6dfdc466a Remove ndk_platform backend. Use the ndk backend.
+ea4962f50 Remove log spam when placing power hint call
+0cc4c5da5 Probe PowerHAL HIDL first
+37beb7942 Support Power HAL AIDL service
+
+   * hardware/qcom-caf/sm8550/dataipa
+b482ae4 dataipa: Disable all the debugging
+
+   * packages/apps/Glimpse
+c57bcd7 Glimpse: Create a Media out of thin air if not in media provider
+
+   * packages/apps/Launcher3
+5078122 Launcher3: Set recent opacity to 100
+
+   * packages/services/Telephony
+8ae593188 Remove system dialer check from RemoteVvmTaskManager.
+
+   * vendor/lineage
+bef04a5 vendor: Enable compact notification HUN
+
+====================
+     02-06-2025
+====================
+
+   * frameworks/base
+df4aeab4f New Crowdin updates (#1190)
+989afc345 Update Crowdin configuration file
+ff21541dd SystemUI: Apply burn-in translations to weather view as well
+e6d464472 pm: aconfig: do not error on flags missing per partition
+3410afa42 Don't enable extra StrictMode features for userdebug builds
+11a8053fa SystemUI: Constrain keyguard indication area burn-in offset
+de1c53217 Checking whether ComponentName with current InputMethod is not null
+16a873cef AudioService: Cancel old toasts when switching ringer mode
+31988910e AudioService: do not block focus request from applications compiled with lower version sdks
+4cdb07dd0 Wifi Standard: Use coroutines instead of handler
+855540bcd Status Bar Tuner: Fix preference icon tint
+13c5a6cdf SystemUI: Tuner: Move to SwitchPreferenceCompat
+49337ef4b BluetoothControllerImpl: Optimize connected battery level scanning
+7b40071a5 BluetoothControllerImpl: fetch battery level from any device
+942149779 BluetoothControllerImpl: Synchronize mConnectedDevices access
+0409dbc2c SystemUI: Fix Internet Tile showing no service
+b0b539b9f SystemUI: Fix slider tile layout issue on A11 QS style
+8a90114ef AllowDelayedLocking as long as run-in-bg allowed
+8e6045f6e FlashlightStrengthTile: Do NOT leak CameraManager TorchCallback
+3153e57ff SystemUI: Introduce Flashlight Strength Tile
+755ead652 Flush output buffers when command is complete
+df214c8a1 SystemUI: Fixup cast chip long press when not showing a timer
+a0aa049b8 SystemUI: Allow long pressing timer chips to directly stop the action
+bb102cb54 frameworks/base: Import Xiaomi Image Tags defenitions
+b931fa961 SystemUI: tuner: Enable enableOnBackInvokedCallback
+635210b75 core: Expose method to toggle recent apps through Binder
+7369b4fee CarrierConfigManager: Enable inflate signal strength by default
+6c1a8bd97 base: Do not reset keyguard going away state - Fixes the flicker on turning off the screen when udfps is enabled
+fd565c818 Fix the potential memory leak issue caused by setExtension.
+4194b597e SystemUI: Add switch for compact HUN [1/2]
+677f8d148 SystemUI: Remove power menu shadow
+7630317af Persist music stream volume per user for Automotive
+911496623 Fix surfaceControl release exception
+b00bc700e Ignore null action in NativeTombstoneManager.
+63c36228c Ignore null action in KeyChainSystemService.
+8e6a9a2a5 Ignore null action in WebViewUpdateService.
+b3d1b8e20 Ignore null action in AudioService.
+490095405 Ignore null action in ActivityManagerService.
+69f9d56c8 Ignore null action in AppBindingService.
+a5c88a3de Ignore null action in BinaryTransparencyService$PackageUpdatedReceiver
+5b4857a58 Ignore null action in VcnManagementService$VcnBroadcastReceiver
+2965b2482 Ignore null action in AppStateTrackerImpl.
+a72688c08 Ignore null action in NotificationAttentionHelper.
+35f3adef6 Ignore null action in DeviceIdleController.
+7930602b9 Ignore null action in BackgroundJobsController.
+c6a1d4676 Ignore null action in AppWidgetServiceImpl.
+d05673da6 Ignore null action in AlarmManagerService$UninstallReceiver.
+cfd2e1f60 Ignore null action in AppRestrictionController.
+c47a4cf46 Ignore null action in SliceManagerService.
+cd60b7278 Ignore null action in PackageManagerService.
+7d196e481 SystemUI: Allow devices to disable 5G toggle
+b5b6242f6 Ignore null action in AudioService.
+57953bf1b Fix FD leaks in BootReceiver.
+ec90540f2 Ignore null action in GpuService.
+c5e16fca2 MobileDataStatsPuller: add rate limit before post msg to handler
+5d8454fd3 avoid deadLock caused by onAuthenticationPrompt()
+1d1742a68 base: Restore system dynamic colors for QS theme
+c692fc972 SystemUI: Discard QQS rows landscape settings
+091b16e70 SystemUI: Implement Split notification shade changes [SQUASH]
+3f5f86b78 fixup! Screenshot: Append app name to filename
+73f752487 SystemUI: write initial value of SHOW_QR_CODE_SCANNER_SETTING on first call
+8ab904357 Fix crash when long pressing navbar home
+652f937a9 SystemUI: Nuke oriented navbar handle
+3399129c1 SystemUI: Whitelist SystemUI Clocks from privilege checks
+35e410e59 SystemUI: Change heads up ticker text style to match clock
+071832d36 SystemUI: Use privacy_chip_background for charger indicator bg
+b6a603886 SystemUI: Update Bluetooth battery level assets
+59094afbf Catch Exception to avoid SyncCallback residue
+7dcae91d1 Fix window token leak on multi-display targets
+1aee0d0d5 Fix small mistakes in dumped string
+bc4efdc84 Deregistering mixes before register mixes in connectMixes
+31944a603 base: Add support for application downgrade [1/2]
+83395f81d don't call the reparent method when the old parent of task is removed.
+a4c7f80c9 close the opend resources when IOException happen.
+236e0b99c Adding nullptr check for some framework components
+80624ab0c Crash during Task switch
+7e1d96c6d SystemUI: Add back QS animation styles
+284dd4662 SystemUI: Add tuner service for QSTileViewImpl
+f36089908 SystemUI: ToastUI: Fix wrong theme and no icon
+b03922c10 remove ScrollCache when Activity destroyed
+5c95bb290 ThemedResourceCache: Remove lambda and optimize map pruning iteration
+88c626205 ThemedResourceCache: Replace ArrayMap with HashMap for performance
+3a739fda4 SystemUI: Add separate check for custom lockscreen weather.
+f94c3bf1b fix missing make NonNull judgment when the old parent is null.
+12b490c8a Fix system server crash in drag scenario with null ClipData.
+d3f9cba8b Don't wait on lock in getClassLoader if already cached.
+6047d205f LocationFudger: Avoid division by zero
+a4fd55186 ensure the opend resources are eventually closed when IOException happen.
+f4e5b116f SystemUI: Fix smartspace layout
+af486e59e fix missing add global lock to call the anyTaskForId method.
+0a229c99e Adds missing standard include <memory> for std::shared_ptr<>.
+201976219 Transition: fix NPE problem.
+48535ec7e add workaround for updateWifiBatteryStats() system_server crash
+7759ad734 add workaround for SSM.newTargetUser() system_server crash
+9cfc2c27b base: Add option to cycle through ringer modes [1/3]
+e4dd2c93f InstallPackageHelper: fiX the NPE problem.
+
+   * hardware/lineage/interfaces
+6063eaf light: Add "sprd_backlight" to the list of backlight devices
+
+   * packages/apps/Camelot
+8318cbd Camelot: Update androidx.pdf to 1.0.0-alpha06
+
+   * packages/apps/Launcher3
+809e4b5 Launcher3: Update folder preview and background color
+
+   * packages/apps/Settings
+6983049 Fixup extras/parts/settings key injection
+777348e Settings: Re-organize top level preferences
+e1e5932 Fixup UI for Settings categories (#155)
+3858521 themes: Expose values for theming settings
+6cd275a Use default letter spacing for category titles
+7c26c75 Settings: Improve udfps enroll introduction layout
+18fcb76 Settings: Use internal display brightness in overlay displays
+f0e0ea3 Settings: Fixup fingerprint enroll finish layout
+6a8033a Settings: Retain udfps overlay shown state on restoring activity
+d0986a7 Move developer options to the most bottom part
+8d4c1c9 TopLevelSettings: Fix null pointer crash on high dpi devices
+687a091 Fix memory leak on wifi
+45c6ff0 Settings: Use List Preference for Zen mode settings
+4c84148 Settings: Use List Preference for Dock speaker plays and Emergency tone
+44f29ea Settings: Remove duplicate adaptive preferences
+9caa9eb Partially Revert "DynamicDenylistManager shall not exist"
+3d54d70 Settings: Update FaceEnroll ActivityDirector and Confirmation
+4837524 Settings: Create face confirmation activity
+99860a0 Settings: Create a ActivityDirector to optionally use SettingsGoogleFutureFaceEnroll
+3de219d Settings: Update gesture and security prefs
+9e61aa8 Settings: Import settings from pixel-fw
+4f62316 Settings: Import columbus preference settings
+5f84fd3 Settings: Replace android:name for SettingsGoogle
+59bacbf Settings: Define android manifest
+2e89e03 Settings: gestures: Enable Cycle through ringer modes for all
+f4d1d3f Settings: Add option to cycle through ringer modes [2/3]
+a463ea7 Fix sim status details not updated after sim hotswap
+34911e5 Show GSM settings with CDMA phone type
+ff47237 Revert "Settings: Fix loading iconpack-based Wellbeing icon"
+1ecfd99 Settings: Allow disabling private DNS for VPN [2/2]
+0c14aa3 Settings: Export an activity for private DNS settings
+7f750bb Settings: SoftAp: add Hidden SSID preference
+9a13b2d Settings: SoftAp: add support for setting shutdown timeout
+49ddbab Settings: SoftAP: Add client manager
+f02888f add App info > Storage > Manage storage button for apps that support it
+24edf9e show current app battery usage mode in summary of App battery usage item
+67b993f add back Unrestricted battery usage option to App battery usage screen
+088790a Settings: Fix face enroll stack overflow
+700f0cc Fix incorrect switch status when user stay in NightDisplaySettings page while scheduled night lights on
+d685768 Settings: Expose clipboard auto clear setting [2/3]
+1ca326d Settings: Add config to display Now Playing
+c009bd3 Settings: Allow showing Ambient instead of fully waking [2/2]
+a15231a add per-connection Wi-Fi MAC address randomization option [1/2]
+e243508 fix Private Space handling in Passwords & accounts > Additional services
+4c7fadd Settings: Add missing animations from google
+ca5ad14 Revert "Change phone number preference to unselectable"
+45fdd8e Settings: Hide the nav bar during udfps fp enrolling
+8f518da Settings: Remove navigation bar IME space toggle if taskbar enabled
+e5bb0b9 fix crash in setting time zone
+89cd2b8 Settings: Prevent NPE in LoadingViewController
+9f076d6 Settings: Safeguard ringtone pref against faulty gapps
+c701846 Settings: AppLock: Update for kotlin errors
+f01ada3 Settings: Don't make app lock settings searchable
+3237832 Settings: Let app lock use face unlock
+0e8b52d Settings: Add app lock settings for alternate security settings provider
+8e91215 Settings: Add app lock summary for 0 protected apps
+c25ebe4 AppLock: Slightly bigger icon size
+903be83 Settings: Update AppLock API
+38cfd8e Settings: Allow locking all apps visible in launcher
+db04717 Settings: Introduce App Lock [3/4]
+0f428b8 Settings: Fix crash with face lock preference for limited access users
+4567b9a Settings: Import missing Face Unlock animation
+aaf9ffc Add Face Unlock with ParanoidSense
+a68d8f6 Settings: Hide headsup toggle
+71c960d Settings: Move custom vib pattern to its own preference
+2dfc1ab Settings: Follow new ringtone vibration patterns
+39d3466 Settings: Preview ringtone vibration pattern
+dcb07cc Settings: Allow choosing a custom vibration pattern [3/3]
+5d6f606 Settings: Add vibration patterns from OOS [3/3]
+ef0e46e Settings: Add simcard number title for SIM1
+0fcfc34 Settings: Fix ringtone selection for devices with e-SIM
+b14af9e MSIM Ringtone: Improve on devices with ESIM
+17e4251 Settings: Use AOSP translations for MSIM ringtone
+8ddfc52 Settings: enable SIM card ringtone only if slot not empty [1/2]
+8decd19 Settings: Phone ringtone setting for Multi SIM device [2/3]
+328a487 Settings: Add back increasing ring feature (2/2).
+1b43f29 Settings: Fix loading iconpack-based Wellbeing icon
+2df5468 AppVolumeSlice: Allow querying icon of apps installed by any user
+a4693a0 Settings: support per-app volume [3/3]
+10ae70d Settings: Hide force full screen settings
+934c23d Settings: Add activity for cutout force full screen
+3b5454f Allow tuning ambient display with sensors [3/3]
+14236ff Fix long click intent for Smart Pixels tile [2/2]
+b633458 Allow adding space below IME on disabling navigation hint [2/3]
+9d2f4b1 Hide navbar radius customization when taskbar enabled
+c499315 Show appropriate title for gesture navigation settings
+f97c00c Disable Navbar radius customization if hint disabled
+cd9d039 Settings: Allow Configuring Navbar Radius [2/2]
+bfc8dc2 Optional haptic feedback on back gesture [2/2]
+53cba4e Allow to hide arrow for back gesture [2/2]
+fcbf77c Settings: Also hide pill length on taskbar mode
+3ed6c00 Settings: Change back gesture height intervals
+dfb45d0 Allow changing back gesture height [2/2]
+baf96f0 Allow changing the length of gesture navbar [2/2]
+efd0469 Settings: Add icon for WEP in wifi network settings
+08a0963 Settings: Allow using icon for ComposePreference
+d155799 Open app when clicking on icon in App Info
+ffe3e99 WiFi: Remove country code checking.
+62feafd DataProcessor: Do not skip and replace screen on component with screen on time
+b92f485 Settings: Fix regulatory info availability check
+
+   * vendor/lineage
+5c23d82 android: merge_dtbs: Respect miboard-id while merging
+
+====================
+     02-05-2025
+====================
+
+   * build/make
+78d49e09 Merge pull request #60 from Terminator-J/15.0-test
+155878b5 build_image: get squashfs partition size from image size
+
+   * frameworks/av
+55bad05d fixup! av: support per-app volume [1/3]
+
+   * vendor/lineage
+32bd1e4 rro_overlay: Use headline font for PermissionController
+5bbf0b6 overlay: device_config: Updates
+02ec5a3 overlay: device_config: Add values required for Speech Recognition
+9d608f1 overlay: device_config: Escape special characters
+4737f0c overlay: device_config: animate navbar on long press
+
+====================
+     02-04-2025
+====================
+
+   * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
+9bef0c7 data-ipa-cfg-mgr: Disable all the debugging
+
+   * hardware/qcom-caf/sm8550/data-ipa-cfg-mgr
+19ea389 data-ipa-cfg-mgr: Disable all the debugging
+
+   * hardware/qcom/data/ipacfg-mgr
+816edd3 Remove no longer used Android.mk guard
+ef8e1ce data-ipa-cfg-mgr: Disable NAT_DUMP on non-debug builds
+ddc7901 data-ipa-cfg-mgr: Disable all the debugging
+1921b32 ipanat: Remove test/Android.mk
+e753ce9 ipacm: convert Android.mk files to Android.bp
+63a4592 ipacm: Fix compilation error for switch case
+e821842 google: Add repo license information.
+e12c3ac Add hardware/qcom/data/ipacfg-mgr/msm8998 soong namespace
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
+2456d63 data-ipa-cfg-mgr: Disable NAT_DUMP on non-debug builds
+ccd3dc5 data-ipa-cfg-mgr: Disable all the debugging
+
+====================
+     02-03-2025
+====================
+
+   * hardware/lineage/compat
+7697651 compat: libaudioclient: Shim MTK constructor as well
+14b0b54 compat: add libaudioclient shim
+
+   * packages/apps/Glimpse
+c9a90aa Glimpse: Allow multiple selection for non-pick intents
+
+====================
+     02-02-2025
+====================
+
+   * android
+18dcfec Revert "manifest: Track clang-20 as latest"
+
+   * packages/inputmethods/LatinIME
+8d82685 Fix crash: NPE in SuggestionStripView in LatinIME
+650856b LatinIME: Default to Material You theme
+4b8e808 LatinIME: Add libjni_latinimegoogle for swype
+ac5004b LatinIME: Fix NPE in KeyboardTheme
+
+   * vendor/addons
+b489d4bf addons: BlackTheme: Make more container surfaces black
+
+   * vendor/lineage
+f170c38 soong: Add libcameraservice extension config
+6a9804d common: Build tensorflow lite jni
+86f670d crdroid: Disable default frame rate limit for games
+bfeacd8 crdroid: Bump to version 11.1
+4cfdad5 crdroid: createjson.sh: rework `extract_field`
+85a3eab crdroid: rework `createjson.sh` (#65)
+86fab4d crdroid: Generate OTA json at build time
+82d8289 common: Inherit pixel-fw when available
+f67c1fc crdroid: Adding an option to build DeviceAsWebcam
+f941704 overlay: Enable circle to search
+61f3d31 crdroid: Build LMO Freeform app and sidebar
+4a5608b crdroid: Move face unlock biometric permission to system_ext
+7767439 crdroid: Switch to AOSPA's face unlock implementation
+09e16f2 crdroid: Build GameSpace
+f24d83c overlay: Use google-sans for font config overlays
+5f747b4 config: Optimize Launcher3 and Settings for speed
+a2bb84d overlay: Add gms location history to extra location packages
+067be83 overlay: Add tethering to location exemption
+866d723 overlay: Add SystemUI to location extra packages
+b588a28 overlay: Add OmniJaws to location extra packages
+429b880 crdroid: Build OmniJaws service
+9020da6 crdroid: Build OmniStyle
+ef1b57a crdroid: Build BatteryStatsViewer
+fda46e3 crdroid: Include vendor/certification when available
+3705a25 soong: Add CAMERA_NEEDS_CLIENT_INFO_LIB{_OPLUS}
+546148e soong: Add support to set vendor tag with client package name
+ed6e90f crdroid: Remove packages moved to addons
+57b8524 crdroid: Moved bootanimation to addons
+3e8cbdf crdroid: Clean up wallpaper overlay
+37556a1 crdroid: Remove Trebuchet packages
+cf17c5b crdroid: Disable memtag for different processes
+54f8699 crdroid: Execute changelog script once at a time
+b21f25c crdroid: Add changelog script
+16cd9fc overlay: update configs for AiAi
+653df40 overlay: Update device configs global overrides
+4124d70 overlay: Offload WM shell to another thread
+f14eb0d overlay: Update SettingsProvider defaults
+7aa8852 crdroid: Update clone exemption list
+466151b crdroid: Add preinstalled package list to stop auto cloning
+9aa6321 overlay: Enable app-cloning feature in Settings
+4ad6aaf overlay: Settings: Show memory usage in app info
+d899d94 device_config: Enable Cloned App
+7722bd3 overlay: Update clock plugin list
+46ed831 overlay: Allow new SystemUI clocks
+33b1807 overlay: Set AOSP webview as fallback
+f4786b2 crdroid: Enable ThinLTO cache
+20751f8 build: Override host metadata
+8dcab00 crdroid: Always disable app launch blur
+a42c9f8 common: Allow OTA downgrade regardless build type
+550d3d1 roomservice: get me some crDroid
+c546fd9 charger: Switch from LineageOS Teal to crDroid Blue
+7beda41 apns: Update mobily APN for prepaid connection
+6ae3f19 Revert "overlay: Default to Seedvault backup transport"
+de090cc crdroid: Drop custom adb drawable
+20a6e06 build: Ship as crDroid based on LOS
+
+====================
+     02-01-2025
+====================
+
+   * android
+2a30311 manifest: Track clang-20 as latest
+47b94e0 Merge 'lineage-22.1' into 15.0
+
+   * device/xiaomi/sm8350-common
+4d193a0 sm8350-common: Add crdroid dependencies
+
+   * packages/apps/Aperture
+97a58dd Automatic translation import
+
+   * packages/apps/Camelot
+6f113dd Automatic translation import
+
+   * packages/apps/Catapult
+b24f455 Automatic translation import
+
+   * packages/apps/Contacts
+cb43fab8 Automatic translation import
+
+   * packages/apps/DeskClock
+852c5e9 Automatic translation import
+
+   * packages/apps/Dialer
+5ad8ecef New translations (#143)
+
+   * packages/apps/Etar
+03d7b5a Automatic translation import
+
+   * packages/apps/FMRadio
+9249322 Automatic translation import
+
+   * packages/apps/FlipFlap
+5816ba1 Automatic translation import
+
+   * packages/apps/Glimpse
+be8eec5 Automatic translation import
+
+   * packages/apps/Jelly
+3796d36 Automatic translation import
+
+   * packages/apps/Launcher3
+884939f New Crowdin updates (#477)
+
+   * packages/apps/Profiles
+8439675 Automatic translation import
+
+   * packages/apps/Recorder
+2b4e22a Automatic translation import
+
+   * packages/apps/Twelve
+e47e3be Automatic translation import
+
+   * packages/apps/crDroidSettings
+ab3bf3b New Crowdin updates (#1218)
+
+   * packages/inputmethods/LatinIME
+5170335 Automatic translation import
+de716ec LatinIME: Update actions/*
+
+   * packages/providers/DownloadProvider
+9b7f7a4 Automatic translation import
+
+   * packages/resources/devicesettings
+ec91385 Automatic translation import
+
+   * vendor/crowdin
+9768bfb Automatic translation import
+
+   * vendor/lineage
+2f05d48 kernel: break the build when depmod finds missing symbols
+259906d kernel: consider gki modules when running depmod for vendor modules
+382aba2 kernel: reduce the use of find when copying modules
+
+   * vendor/qcom/opensource/commonsys/fm
+152dff0 Automatic translation import
+
+====================
+     01-31-2025
+====================
+
+   * device/xiaomi/mars
+0f5be40 mars: Add crdroid.dependencies
+
+   * frameworks/av
+7bf00c34 CameraProviderExtension: add enabled bool and always set torch
+c5b6abd4 CameraProviderExtension: Use weak linkage for default implementations
+de4be113 CameraProviderExtension: Inject strength in fixupTorchStrengthTags
+5233b087 CameraProviderExtension: Reset strength level on torch off
+1e1edf40 CameraProviderExtension: Update mTorchStrengthLevel with new level
+fb2e13bd CameraProviderExtension: Return BAD_VALUE for invalid strength level
+41b55d50 camera: Add extension to control torch light strength
+
+   * kernel/xiaomi/sm8350
+8252226d3 arm64: dts: star: Mask as mars to fix audio issues
+073aaa1e8 arm64: dts: star: Disable rear display
+
+   * packages/apps/DeskClock
+01228be DeskClock: Fix angles in dynamic icon
+
+====================
+     01-30-2025
+====================
+
+   * device/xiaomi/mars
+9d89d5d mars: Updated from star OS1.0.9.0.UKAMIXM
+fbae54a mars: overlay: Update pixel pitch
+480dd52 mars: Drop `core_64_bit` & `full_base_telephony` inclusions
+40e1161 mars: Remove unused Android.mk
+072c324 mars: Move to Xiaomi fingerprint AIDL
+eb8d309 mars: Adjust override prop key names
+
+   * vendor/lineage
+8e2709c merge_dtbs: Craft unique name for final saved merged trees
+81c8cad merge_dtbs: Use logging and argparse
+bd92c42 merge_dtbs.py: Print only basenames of dtb* files
+
+   * vendor/qcom/opensource/commonsys/fm
+249783d FM: Add qcom.fmradio to required[]
+
+   * vendor/xiaomi/mars
+c79d853 mars: Updated from star OS1.0.9.0.UKAMIXM
+
+====================
+     01-29-2025
+====================
+
+   * device/qcom/sepolicy_vndr/legacy-um
+9c20ed74 legacy-um: vendor: Allow qtelephony to find vendor_hal_factory_aidlservice
+1d528849 legacy-um: Label and allow factoryservice its needs
+
+   * packages/apps/Launcher3
+bb88af1 Fix errorprone warnings
+

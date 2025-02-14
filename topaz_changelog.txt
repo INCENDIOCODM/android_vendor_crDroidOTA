@@ -1,7 +1,22 @@
 Highlights & Device Specific Changes:
-Build type: BETA
+Build type: Monthly
 Device: Redmi Note 12 4G/NFC (Topaz)
 Device maintainer: Haruki Takahashi (haruki達月)
+
+===== 02-10-2025 =====
+- Updated to 11.2
+- February Security Patch
+- Fixed some bugs from Source
+- Implement Call Recording Feature
+- Fixed some crash logs
+- Added Circle to Search Feature
+- Removed Miui Camera for now
+
+===== 12-18-2024 =====
+- Update Latest Commits From Source
+- Added Sidebar Feature
+- Removed Pocket Mode Feature
+- Minor Changes from Device Tree
 
 ===== 11-07-2024 =====
 - Initial Official Support

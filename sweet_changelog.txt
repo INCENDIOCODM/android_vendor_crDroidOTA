@@ -1,10 +1,57 @@
 Highlights & Device Specific Changes:
-Build type: Weekly
+Build type: Monthly
 Device: Redmi Note 10 Pro (sweet)
 Device maintainer: Pranav Vashi (neobuddy89)
 
 Highlights & Device Specific Changes:
 
+==================================
+10th February, 2025
+
+* Android February 2025 Security Update
+* Fixed "Less boring heads-up" option (crdroid > notifications)
+* Added compact heads-up toggle (crdroid > notifications)
+* Fixed crash on Locale tile long press
+* Moved "Circle to search" toggle to navigation gesture settings, improving 3rd party launcher support.
+* Navigation gesture settings are now located under Settings > System
+* Various fixes and improvements
+* sweet: Kernel fixes from mainstream
+
+==================================
+6th February, 2025
+
+* Various fixes and improvements
+* sweet: Removed deprecated OMX and replaced with c2 media codecs
+* sweet: Switched to KernelSu Next + SusFS support
+* sweet: Performance tunings for kernel
+* sweet: Switched to clang-20 for kernel
+ 
+==================================
+26th January, 2025
+
+* Add toggle to always show compact headsup for notification (crdroid > notifications)
+* Make launcher app drawer background opaque and improve colors
+* Fix lens shortcut on searchbar of launcher
+* Fix crash while using sidebar in some instances
+* Fix icon shapes not visible in Wallpaper & Styles
+* Disabled AOSP frame rate limit for games
+* Various fixes and improvements
+* sweet: Updated built-in Dolby
+* sweet: Update KernelSu to v1.0.3-2-legacy
+ 
+==================================
+22nd January, 2025
+
+* Initial Android 15 QPR1 + January 2025 Security Update
+* Switch to split shade QS for landscape mode
+* Added toggle to allow application downgrade (crdroid > misc)
+* Added more weather elements for custom weather on lockscreen (crdroid > lockscreen)
+* Switching between smartspace and custom weather requires SystemUI/System restart
+* Allow disabling private DNS for VPN (Settings > Network > DNS)
+* Added Circle to Search support - Requires Google Search (Launcher settings > misc)
+* Reworked QS theme color
+* Various fixes and improvements
+ 
 ==================================
 16th December, 2024
 

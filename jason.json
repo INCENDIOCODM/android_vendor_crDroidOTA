@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "Mert Özkan (inits)",
+            "oem": "Xiaomi",
+            "device": "Mi Note 3",
+            "filename": "crDroidAndroid-15.0-20250212-jason-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/jason/11.x/crDroidAndroid-15.0-20250212-jason-v11.2.zip/download",
+            "timestamp": 1739307636,
+            "md5": "f2cd550170fe6a994d6e705d3353d879",
+            "sha256": "4d3f802f57f2725db365254eab8a1f0ac38d98524674e9eed764334aea8d7bda",
+            "size": 1179165601,
+            "version": "11.2",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-15-0-official-crdroid-android-v11-1-for-xiaomi-mi-note-3.4715048/",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "https://xmfirmwareupdater.com/archive/miui/jason/",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/jason/11.x/recovery/recovery.img",
+            "paypal": "",
+            "telegram": "https://t.me/MiNote3Chat",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_jason/tree/15.0",
+            "common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sdm660-common/tree/15.0-jason",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_jason/tree/15.0"
+        }
+    ]
+}

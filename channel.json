@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "Lightzin021",
+            "oem": "Motorola",
+            "device": "Moto G7 Play",
+            "filename": "crDroidAndroid-15.0-20250210-channel-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/channel/11.x/crDroidAndroid-15.0-20250210-channel-v11.2.zip/download",
+            "timestamp": 1739177044,
+            "md5": "26d3dc963745e3a190d9f4f959311bd7",
+            "sha256": "2b52ae2ba6b0576c8c250bcd0b00976c0640aabbcf8f0e9e085c820f0c62ae59",
+            "size": 954557806,
+            "version": "11.2",
+            "buildtype": "Weekly",
+            "forum": "https://xdaforums.com/t/rom-15-0-channel-crdroid-v11-1-2025-01-26.4695318/",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/Android-15/31-Dec-2024/NikGapps-core-arm64-15-20241231-signed.zip/download",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/channel/11.x/recovery/",
+            "paypal": "",
+            "telegram": "https://t.me/MotoG7Play",
+            "dt": "https://github.com/crdroidandroid/android_device_motorola_channel",
+            "common-dt": "",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_motorola_sdm632"
+        }
+    ]
+}

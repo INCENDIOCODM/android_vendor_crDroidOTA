@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "melo159",
-			"oem": "Xiaomi",
-			"device": "Mi 11 Lite 4G",
-			"filename": "crDroidAndroid-15.0-20241215-courbet-v11.0-BETA.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/courbet/11.x/crDroidAndroid-15.0-20241215-courbet-v11.0-BETA.zip/download",
-			"timestamp": 1734246514,
-			"md5": "97099726d70d296eb9af9850218587b2",
-			"sha256": "0d62b42b9dbb6d826006b065aee1f74a942fac6a390ad37ea5fba2dcfc18ce30",
-			"size": 1593762187,
-			"version": "11.0",
-			"buildtype": "BETA",
-			"forum": "https://xdaforums.com/t/rom-15-official-crdroid-v11-x-courbet-courbetin-15-december-2024.4700724/",
-			"gapps": "https://sourceforge.net/projects/crdroid/files/gapps",
-			"firmware": "https://xmfirmwareupdater.com/firmware/courbet/",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/courbet/11.x/recovery/",
-			"paypal": "https://paypal.me/meloaosp",
-			"telegram": "https://t.me/crdroid_mi_11_lite_4g",
-			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_courbet",
-			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm6150-common/tree/15.0-courbet",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm6150/tree/15.0-courbet"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "melo159",
+            "oem": "Xiaomi",
+            "device": "Mi 11 Lite 4G",
+            "filename": "crDroidAndroid-15.0-20250209-courbet-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/courbet/11.x/crDroidAndroid-15.0-20250209-courbet-v11.2.zip/download",
+            "timestamp": 1739084979,
+            "md5": "a23dee30d6d7cbad188a1010d4b39deb",
+            "sha256": "60e90ccf12520ab3a0c65bd58c3ad571e0617d0abfcf99097b990905fc0112c8",
+            "size": 1608890269,
+            "version": "11.2",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-15-official-crdroid-v11-x-courbet-courbetin-09-february-2025.4700724/",
+            "gapps": "https://sourceforge.net/projects/crdroid/files/gapps",
+            "firmware": "https://xmfirmwareupdater.com/firmware/courbet/",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/courbet/11.x/recovery/",
+            "paypal": "https://paypal.me/meloaosp",
+            "telegram": "https://t.me/crdroid_mi_11_lite_4g",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_courbet",
+            "common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm6150-common/tree/15.0-courbet",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm6150/tree/15.0-courbet"
+        }
+    ]
 }

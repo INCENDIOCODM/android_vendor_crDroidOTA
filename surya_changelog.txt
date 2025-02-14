@@ -1,7 +1,36 @@
 Highlights & Device Specific Changes:
-Build type: BETA
+Build type: Monthly
 Device: POCO X3/NFC (surya)
 Device maintainer: shoya0x00
+
+====================
+     20-01-2025
+====================
+- Upstream KernelSU Next
+- Set 120Hz frame rate multiple threshold
+- Increase 5 GHz network signal tolerance
+- Adjust statusbar heights and paddings
+- Updated fps values for mpeg4 decoder
+- Enable ELF checks for vendor
+- Remove OMX audio codecs
+- Disable FRP
+- Dropped Leica
+- Misc Changes and Improvement
+
+====================
+     19-01-2025
+====================
+- Initial v11.1 release
+- Upstream kernel to 4.14.355
+- KernelSU Next instead of KernelSU
+- Misc Changes and Improvement
+
+====================
+     21-12-2024
+====================
+- Initial A15 stable release
+- Upstream kernel to 4.14.355
+- Misc Changes and Improvement
 
 ====================
      11-10-2024

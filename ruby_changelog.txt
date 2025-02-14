@@ -1,0 +1,150 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Xiaomi Redmi Note 12 Pro 5G (ruby)
+Device maintainer: postcumer
+
+====================
+     12-21-2024
+====================
+
+- Inital crDroid 11 build for Redmi Note 12 Pro 5G
+
+====================
+     12-21-2024
+====================
+
+   * hardware/lineage/compat
+bf87395 compat: expose android.hardware.sensors@1.0-convert as shared lib
+
+   * hardware/lineage/interfaces
+9e5fa4a sensors: Add a sensors 2.0 -> 1.0 subhal wrapper
+
+====================
+     12-20-2024
+====================
+
+   * frameworks/base
+090207422 PowerStatsLogger: ensure the opend stream is closed when IOException happen.
+
+====================
+     12-19-2024
+====================
+
+   * packages/apps/Settings
+776444b Fix the NPE in the tryToFetchUsageData() method
+
+====================
+     12-18-2024
+====================
+
+====================
+     12-17-2024
+====================
+
+====================
+     12-16-2024
+====================
+
+   * build/make
+939f4dc Merge 'lineage-22.0' into 15.0
+
+   * build/soong
+bce41e4 Merge 'lineage-22.0' into 15.0
+
+   * lineage-sdk
+f554f7b Merge 'lineage-22.0' into 15.0
+
+   * packages/apps/Aperture
+84f17b0 Automatic translation import
+
+   * packages/apps/Camelot
+f513278 Automatic translation import
+
+   * packages/apps/Contacts
+20a3f41 Merge 'lineage-22.0' into 15.0
+
+   * packages/apps/DeskClock
+eaf6d78 Automatic translation import
+
+   * packages/apps/Dialer
+c0b3646 Merge 'lineage-22.0' into 15.0
+
+   * packages/apps/Etar
+b4a63c5 Automatic translation import
+
+   * packages/apps/FMRadio
+e7f3c17 Automatic translation import
+
+   * packages/apps/Jelly
+5e314df Automatic translation import
+
+   * packages/apps/Launcher3
+2e860e5 Launcher3: Fix bottom margin for memory info view
+
+   * packages/apps/Messaging
+1aae7e9 Merge 'lineage-22.0' into 15.0
+
+   * packages/apps/Profiles
+57410d9 Automatic translation import
+
+   * packages/apps/Recorder
+23e5b29 Automatic translation import
+
+   * packages/apps/SetupWizard
+487f4e5 Merge 'lineage-22.0' into 15.0
+
+   * packages/apps/Twelve
+6298914 Automatic translation import
+
+   * packages/providers/DownloadProvider
+0b7accc Automatic translation import
+
+   * packages/resources/devicesettings
+f2b92f1 Automatic translation import
+
+   * system/core
+c7e17df Avoid unnecessary allocation in VectorImpl
+
+   * system/sepolicy
+0e86c15 sepolicy: Allow system app to access sysfs_leds
+
+   * vendor/crowdin
+0586329 Automatic translation import
+
+   * vendor/lineage
+16132a6 crdroid: Include vendor/certification when available
+
+====================
+     12-15-2024
+====================
+
+   * android
+72d8a46 manifest: Track build/bazel
+
+   * vendor/certification
+e7720dc certification: Update overlay
+
+====================
+     12-14-2024
+====================
+
+   * build/bazel
+a4b299e bazel: dev-keys -> release-keys
+
+   * packages/apps/crDroidSettings
+e07f25a crdroid: Remove island notifications
+
+   * vendor/pixel-framework
+9a5e535 SystemUIGoogle: Update CentralSurfacesGoogle
+
+====================
+     12-13-2024
+====================
+
+====================
+     12-12-2024
+====================
+
+   * packages/inputmethods/LatinIME
+eb4a76e Fix crash: NPE in SuggestionStripView in LatinIME
+

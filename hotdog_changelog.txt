@@ -3,6 +3,94 @@ Build type: Weekly
 Device: OnePlus 7T PRO (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20250210 =====
+!!! Attention !!!
+Now we will use a KernelSU Next.
+If you have the KernelSU manager installed, you must, before updating
+the firmware, revoke the SU permission from all programs that have
+been granted root rights. You must also remove all installed
+modules and the KernelSU manager itself.
+After updating the firmware, you can reinstall the kernelSU manager.
+You can download it from this link - https://github.com/rifsxd/KernelSU-Next/releases
+
+- Initial crDroid 11.2
+- Updated security patches to February 2025 (android-15.0.0_r14)
+- Kernel CVE patches
+- Other changes and improvements in the kernel
+- Switch KernelSU rsuntk fork to KernelSU Next 1.0.4 with SUSFS v1.5.5
+- Fixed less boring heads up option
+- Moved Circle to search toggle to navigation gesture settings to facilate use with 3rd party launchers
+- Moved navigation gesture settings to Settings > System
+- Fixed google's battery widget not working
+- Launcher3: Update folder preview and background color
+- SystemUI: Apply burn-in translations to weather view as well
+- SystemUI: Prevent indicator text cutting off in biometric prompt
+- SystemUI: Implement pocket lock check for faceunlock
+- Fixed support per-app volume
+- Devicetree: Disable FRP
+- Devicetree: Remove OMX codecs
+- Updated translations
+- Some other fixes
+
+===== 20250203 =====
+- Certification: update props to the latest lynx beta
+- DeskClock: Fix angles in dynamic icon
+- SystemUI: Fix Flashlight tile for A11 QS style
+- SystemUI: Fix Internet Tile showing no service
+- Bluetooth: fetch battery level from any device
+- Status Bar Tuner: Fix preference icon tint
+- AudioService: do not block focus request from applications compiled with lower version sdks
+- fixup! base: Allow customizing volume stream steps
+- Updated themed icons
+- Updated Twelve, Glimpse, Eleven
+- Updated translations
+
+===== 20250131 =====
+- Updated KernelSU to v1.0.3-4-legacy
+- Flashlight tile: Added brightness adjustment
+- Some other fixes
+- Updated translations
+
+===== 20250126 =====
+- Updated KernelSU to v1.0.3-2-legacy
+- OPlusExtras moved to System menu
+- Added compact heads-up toggle
+- Added split shade QS
+- Added optional wind info & humidity on lockscreen
+- SystemUI: Add private DNS QS tile
+- SystemUI: Remove power menu shadow
+- SystemUI: Allow long pressing timer chips to directly stop the action
+- SystemUI: Fixup cast chip long press when not showing a timer
+- SystemUI: Fix burn-in translations not applying to keyguard slices
+- base: Do not reset keyguard going away state - Fixes the flicker on turning off the screen when udfps is enabled
+- Fixed iconshapes corner radius
+- Updated LatinIME keyboard
+- Dialer: Fix blinking hint text
+- Messaging: Replace AOSP illustrations
+- Telephony updates
+- Launcher3: Fix race condition when performing settings toggle restart
+- Launcher3: QsbContainerView: Allow configurable widgets
+- Launcher3: Hide app search results of profiles in quiet mode
+- Launcher3: Fix taskbar crash when disabled on fold devices
+- Launcher3: Fix upstream bug with dots enabled
+- Launcher3: Keep clear-all button from being disabled
+- Launcher3: Allow hiding top shadow on statusbar
+- Launcher3: Update lens intent in QSB
+- Launcher3: Improve persistent taskbar corner radius
+- Launcher3: Set app drawer opacity to 100
+- Restore system dynamic colors for QS theme
+- Fixed LMOFreeform crash in some cases
+- Fixed multiple memory leaks
+- Fixed the potential memory leak issue caused by setExtension
+- Disable default frame rate limit for games (introduced in A15)
+- System WebView 132.0.6834.122
+- Some other fixes here and there
+- Updated translations
+
+===== 20250119 =====
+- crDroid 11.1 (QPR1) Stable Release
+- Updated to January ASB
+
 ===== 20241216 =====
 - crDroid 11 Stable Release
 - Settings: Fix face enroll stack overflow

@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "TestaMic",
+            "oem": "Samsung",
+            "device": "Galaxy A52",
+            "filename": "crDroidAndroid-15.0-20250211-a52q-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/a52q/11.x/crDroidAndroid-15.0-20250211-a52q-v11.2.zip/download",
+            "timestamp": 1739282626,
+            "md5": "bd6e0af71d3d71c5c68ef5c16f920b14",
+            "sha256": "e3eb66d8ca21828ab9a5eb4b6918870bb2f1e440fee1f011373dbc169e834137",
+            "size": 1463290607,
+            "version": "11.2",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/crdroid-11-1-stable-android-15-qpr1-for-a52-4g-a52q-unofficial.4672356/",
+            "gapps": "https://github.com/MindTheGapps/15.0.0-arm64/releases/download/MindTheGapps-15.0.0-arm64-20240928_150548/MindTheGapps-15.0.0-arm64-20240928_150548.zip",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/a52q/11.x/recovery20251102.tar/download",
+            "paypal": "https://paypal.me/FilipCojocaru",
+            "telegram": "https://t.me/testamic2",
+            "dt": "https://github.com/crdroidandroid/android_device_samsung_a52q",
+            "common-dt": "https://github.com/crdroidandroid/android_device_samsung_sm7125-common",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_samsung_sm7125"
+        }
+    ]
+}

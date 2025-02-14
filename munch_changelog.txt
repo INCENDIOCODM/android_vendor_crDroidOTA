@@ -1,0 +1,186 @@
+====================
+     01-20-2025
+====================
+
+* v11.1 Stable build
+* Clean Flash necessary. Dirty Flash from 11.1 beta is fine.
+* Dolby and MiuiCamera Included.
+* Built with Nova(E404) Kernel
+* Updated vendor security to january
+* Firmware is Included. Can flash regional latest firmware if needed
+* And many more changes
+
+   * build/make
+722f3a6 build: handle missing files in remove_broken_build_tools
+
+   * frameworks/base
+dbe8d2e58 avoid deadLock caused by onAuthenticationPrompt()
+
+   * packages/apps/Messaging
+0b7bb49 Messaging: Replace AOSP illustrations
+
+   * vendor/addons
+7ed7d6c addons: BlackTheme: Make shades little more darker
+
+====================
+     01-19-2025
+====================
+
+   * bootable/recovery
+c0c1de7 Merge 'lineage-22.1' into 15.0
+
+   * device/lineage/sepolicy
+3cd958e Merge 'lineage-22.1' into 15.0
+
+   * hardware/qcom-caf/common
+424c71f common: Add firmware-modem mount point
+
+   * packages/apps/Aperture
+fc36f30 Aperture: Fix kotlin 2 build
+
+   * packages/apps/Dialer
+f5ef95c Merge 'lineage-22.1' into 15.0
+
+   * packages/apps/Launcher3
+820581a Merge pull request #475 from JYRRC/15.0
+
+   * packages/apps/crDroidSettings
+1749db2 crdroid: Add optional wind info & humidity on lockscreen [2/2]
+
+   * packages/inputmethods/LatinIME
+356345a Fix crash: NPE in SuggestionStripView in LatinIME
+
+   * packages/services/OmniJaws
+d7a8257 OmniJaws: Fix wind direction by adjusting the wind direction key
+
+   * tools/extract-utils
+96275fa extract_utils: add support for generating boot jars list
+
+   * vendor/lineage
+f1b0574 android: merge_dtbs: Respect miboard-id while merging
+
+====================
+     01-18-2025
+====================
+
+   * hardware/lineage/interfaces
+252de88 aidl: light: Add support for keyboard-backlight* devices
+
+   * packages/apps/TvSettings
+f1e1498 TvSettings: Move About to top of Device page
+
+   * packages/apps/Twelve
+8385ea7 Twelve: Add retries to Api.kt
+
+   * toolchain/pgo-profiles
+063221c Refreshed afdo profiles drop from ZP1A.250103.001
+
+====================
+     01-17-2025
+====================
+
+====================
+     01-16-2025
+====================
+
+   * frameworks/av
+14a5f3d Prevent OOB write in MPEG4Writer::writeIpcoBox()
+
+   * packages/apps/Camelot
+309e292 Automatic translation import
+
+   * packages/apps/Catapult
+60b5c6b Automatic translation import
+
+   * packages/apps/DeskClock
+41beedf Automatic translation import
+
+   * packages/apps/Etar
+8ca7de0 Automatic translation import
+
+   * packages/apps/FMRadio
+9a65ecb Automatic translation import
+
+   * packages/apps/FlipFlap
+cfbe2e1 Automatic translation import
+
+   * packages/apps/Glimpse
+e679244 Automatic translation import
+
+   * packages/apps/Jelly
+a78d6c3 Automatic translation import
+
+   * packages/apps/Recorder
+cc552a3 Automatic translation import
+
+   * packages/resources/devicesettings
+9069cb0 Automatic translation import
+
+   * vendor/crowdin
+a54ac9c Automatic translation import
+
+   * vendor/qcom/opensource/commonsys/fm
+bb135bb Automatic translation import
+
+====================
+     01-15-2025
+====================
+
+   * android
+ad3d83a Merge 'lineage-22.1' into 15.0
+
+   * frameworks/libs/systemui
+cf16291 iconloaderlib: Use icon provider instance for BaseIconCache
+
+   * lineage-sdk
+cd48627 ChargingControl: Prevent crash against very frequent power toggle
+
+   * packages/apps/Settings
+3a293a5 fixup! Fix background data clobbering other policies
+
+   * system/core
+61c661a Add missing <stdlib.h> for calloc()/free()/strtoul().
+
+====================
+     01-14-2025
+====================
+
+   * hardware/qcom-caf/sm8250/display
+248825f fixup! display: Switch to soong
+
+====================
+     01-13-2025
+====================
+
+   * device/qcom/sepolicy_vndr/legacy-um
+0a1d9fc common: Label /sys/class/qcom-battery for everyone
+
+====================
+     01-12-2025
+====================
+
+   * frameworks/native
+e62d2d5 libui: Do not restrict instr limit
+
+   * packages/modules/Bluetooth
+15de72f Merge 'lineage-22.1' into 15.0
+
+   * system/sepolicy
+a10189b Merge 'lineage-22.1' into 15.0
+
+====================
+     01-11-2025
+====================
+
+   * build/soong
+99f104b Merge 'lineage-22.1' into 15.0
+
+   * device/qcom/sepolicy_vndr/sm8550
+1ec5db7 common: Label /sys/class/qcom-battery for everyone
+
+   * packages/apps/LineageParts
+9e5e45c Merge 'lineage-22.1' into 15.0
+
+   * packages/apps/Updater
+3c5dd18 Merge 'lineage-22.1' into 15.0
+

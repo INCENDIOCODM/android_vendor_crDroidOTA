@@ -1,7 +1,88 @@
 Highlights & Device Specific Changes:
-Build type: BETA
+Build type: Weekly
 Device: Redmi Note 13 Pro 5G / Poco X6 5G (garnet)
 Device maintainer: JYR_RC
+
+===== 09 February, 2025 =====
+
+- CrDroid v11.2 with February 2025 security patches
+- Fixed "Less boring heads-up" option (crdroid > notifications)
+- Added compact heads-up toggle (crdroid > notifications)
+- Moved "Circle to search" toggle to navigation gesture settings, improving 3rd party launcher support.
+- Navigation gesture settings are now located under Settings > System
+- Various fixes and improvements
+- Thanks grewal and contributors for source base tree
+- Thanks Sokolataki1 For testing
+- Ota Support
+
+===== 02 February, 2025 =====
+
+- Fixed WhatsApp calls (normal and speaker)
+- Certification: update props to the latest lynx beta
+- Update NLSound 4.1 (Dolby)
+- Switch to stock kernel 5.10.198
+- Thanks grewal and contributors for source base tree
+- Thanks Sokolataki1 For testing
+- Ota Support
+
+===== 19 January, 2025 =====
+
+- Synced with latest Crdroid changes as of 19 Jan,2025
+- CrDroid 11.1 (QPR1) Stable Release
+- January security patch
+- Import OnePlus Dolby
+- Fixed dolby vision HDR
+- Fixed magic editor google photos
+- Added update netflix props
+- Set dex2oat thread count and cpuset
+- Label more property camera
+- Disable slow blur effect to avoid laggish blur effect
+- Add a property to enable prefetching video
+- Remove omx libraries
+- Disable OMX service
+- Defer refresh rate changes when screen is off
+- Import media codecs parrot
+- Thanks grewal for source base tree
+- Thanks Sokolataki1 For testing
+- If you do not pass basic integrity and device, restart the device and delete data from the play store and play services
+
+Note:
+Ota is supported but a clean installation is required
+
+===== 25 December, 2024 =====
+
+- Synced with latest Crdroid changes as of 24 Dec,2024
+- Increase more minimum brightness level
+- Enable refresh rate controls in settings
+- Enable smart pixeles
+- Added support volume steps
+- Added toggle refresh rate in qs
+- Update pixel pitch
+- Adjust statusbar padding
+- Thanks grewal and kleidione for source base tree
+- If you do not pass basic integrity and device, restart the device and delete data from the play store and play services
+
+===== 21 December, 2024 =====
+
+- Synced with latest Crdroid changes as of 21 Dec,2024
+- Fixed problem app ott not opening
+- Fixed problems with some banking apps
+- Added 120hz on initial boot
+- Limit max refresh rate on lockscreen and AOD
+- Disable p3 and srgb color modes
+- Thanks grewal and kleidione for source base tree
+- If you do not pass basic integrity and device, restart the device and delete data from the play store and play services
+
+===== 18 December, 2024 =====
+
+- Initial Android 15 stable release
+- Synced with latest Crdroid changes as of 18 Dec,2024
+- Fixed failing basic SafetyNet attestation without root (again)
+- Switch to qcom vibrator
+- Switch oneplus dolby for xiaomi dolby
+- Many thanks to my team of testers for all the tests and support
+- Thanks grewal for source base tree
+- If you do not pass basic integrity and device, restart the device and delete data from the play store and play services
 
 ===== 8 December, 2024 =====
 

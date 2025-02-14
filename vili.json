@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "swiitchOFF",
-			"oem": "Xiaomi",
-			"device": "Xiaomi 11T Pro",
-			"filename": "crDroidAndroid-15.0-20241217-vili-v11.0.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/vili/11.x/crDroidAndroid-15.0-20241217-vili-v11.0.zip/download",
-			"timestamp": 1734400456,
-			"md5": "4c73c195278cad6fd7ae9c6e44bbaaa3",
-			"sha256": "6514792fbce796da1e0b12737967d4a6a571854ef460eab003949778ebbb8295",
-			"size": 2002017781,
-			"version": "11.0",
-			"buildtype": "Weekly",
-			"forum": "https://xdaforums.com/t/rom-oss-15-0-official-crdroid-v11-x-for-xiaomi-11t-pro-vili.4702137/",
-			"gapps": "https://nikgapps.com",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/vili/custom-recovery/",
-			"paypal": "",
-			"telegram": "https://t.me/swiitchOFF_chat",
-			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_vili",
-			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm8350-common",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm8350"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "swiitchOFF",
+            "oem": "Xiaomi",
+            "device": "Xiaomi 11T Pro",
+            "filename": "crDroidAndroid-15.0-20250212-vili-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/vili/11.x/crDroidAndroid-15.0-20250212-vili-v11.2.zip/download",
+            "timestamp": 1739356447,
+            "md5": "e509a1f776dbb1ca9fdf0f6c2dc702fa",
+            "sha256": "f83408b05fc0425e10c0c4e63a7038b1b45fc7a0d97f467d721ccd859846a09e",
+            "size": 2148894500,
+            "version": "11.2",
+            "buildtype": "Weekly",
+            "forum": "https://xdaforums.com/t/rom-oss-15-0-official-crdroid-v11-x-for-xiaomi-11t-pro-vili.4702137/",
+            "gapps": "https://nikgapps.com",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/vili/custom-recovery/",
+            "paypal": "https://buymeacoffee.com/iamswiitchoff",
+            "telegram": "https://t.me/swiitchOFF_chat",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_vili",
+            "common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm8350-common",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm8350"
+        }
+    ]
 }

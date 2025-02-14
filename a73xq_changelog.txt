@@ -3,7 +3,20 @@ Build type: Monthly
 Device: Samsung A73 5G (a73xq)
 Device maintainer: alqix
 
+===== 10 February, 2025 =====
+
+- Update to crDroid 11.2 release
+- February Security Patch
+- Added Circle to Search Feature
+
+===== 20 January, 2025 =====
+
+- Inital crDroid 11.1 release
+- January Android Security Patch
+- November Vendor Security Patch
+
 ===== 17 December, 2024 =====
+
 - Stable release
 
 ===== 02 December, 2024 =====

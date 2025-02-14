@@ -1,0 +1,13 @@
+Highlights & Device Specific Changes:
+Build type: Weekly
+Device: Motorola Moto G7 Play (channel)
+Device maintainer: Lightzin021
+
+===== 2025-02-10 =====
+- Bump to crDroid 11.2
+
+===== 2025-02-03 =====
+- Small battery consumption optimizations
+
+===== 2025-01-26 =====
+- Initial crDroid 11.x release

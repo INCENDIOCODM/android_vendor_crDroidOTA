@@ -1,0 +1,15 @@
+=====================================
+Highlights & Device Specific Changes:
+=====================================
+
+Build type: Monthly
+Device: Xiaomi Mi Mix 2 (chiron)
+Device maintainer: manty
+
+
+===== 2025-02-11 =====
+Update to crDroid 11.2 (Feb 2025 ASB)
+
+===== 2025-01-23 =====
+Initial build of crDroid 11.1 (Jan 2025 ASB)
+Using Lineage repos as our device base.

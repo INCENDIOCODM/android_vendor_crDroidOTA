@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Ishaan",
-			"oem": "Redmi",
-			"device": "Note 12 5G/Poco X5",
-			"filename": "crDroidAndroid-15.0-20241209-stone-v11.0-BETA.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/stone/11.x/crDroidAndroid-15.0-20241209-stone-v11.0-BETA.zip/download",
-			"timestamp": 1733756531,
-			"md5": "df738f2fac7932dfdc7fdafaeb668db6",
-			"sha256": "28fe6aabbb158ac5f55dcad4c5d08132e37d6ca1963c629df810e993ccf2ec44",
-			"size": 1203382296,
-			"version": "11.0",
-			"buildtype": "BETA",
-			"forum": "https://xdaforums.com/t/rom-15-0-stone-crdroid-11-official.4704640/",
-			"gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/Android-15/",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/stone/11.x/recovery/",
-			"paypal": "",
-			"telegram": "https://t.me/+HI11neGkqB4zZjll",
-			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_stone.git",
-			"common-dt": "",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_stone"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "Ishaan",
+            "oem": "Redmi",
+            "device": "Note 12 5G/Poco X5",
+            "filename": "crDroidAndroid-15.0-20250210-stone-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/stone/11.x/crDroidAndroid-15.0-20250210-stone-v11.2.zip/download",
+            "timestamp": 1739224626,
+            "md5": "2323d6b7c045d349812eca2f162624dd",
+            "sha256": "855a1d6cf8ef1a5b9e012b6221a35e6848f64d94d7762e61df915b23751bf864",
+            "size": 1212780653,
+            "version": "11.2",
+            "buildtype": "Weekly",
+            "forum": "https://xdaforums.com/t/rom-15-0-stone-crdroid-11-official.4704640/",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/Android-15/",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/stone/11.x/recovery/",
+            "paypal": "",
+            "telegram": "https://t.me/+HI11neGkqB4zZjll",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_stone.git",
+            "common-dt": "",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_stone"
+        }
+    ]
 }

@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "Munir Nasibzade",
+            "oem": "Redmi",
+            "device": "Redmi Note 8",
+            "filename": "crDroidAndroid-15.0-20250211-ginkgo-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/ginkgo/11.x/crDroidAndroid-15.0-20250211-ginkgo-v11.2.zip/download",        
+            "timestamp": 1739276041,
+            "md5": "9768e2cbfd2ec827f1c9321cd5f20da2",
+            "sha256": "76430cce8e47f264bfa095f5625636c07ff30282b4fd7c76a654c371c853ab26",
+            "size": 1489637575,
+            "version": "11.2",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-official-ginkgo-15-crdroid-11-for-redmi-note-8-8t.4717460/",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/27-Jan-2025/",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/shawkteam/files/ginkgo/addons/shrp_recovery.img/download",
+            "paypal": "",
+            "telegram": "https://t.me/crdroidredminote8",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_ginkgo/tree/15.0",
+            "common-dt": "",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_ginkgo/tree/15.0"
+        }
+    ]
+}

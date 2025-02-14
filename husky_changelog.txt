@@ -1,10 +1,55 @@
 Highlights & Device Specific Changes:
-Build type: Beta
+Build type: Stable
 Device: Google Pixel 8 Pro (husky)
 Device maintainer: Ionut Gherman (ionutgherman)
 
 Highlights & Device Specific Changes:
 =====================================
+08th February, 2025
+===================
+ROM changes:
+• Launcher3: Update folder preview and background color
+• SystemUI: Apply burn-in translations to weather view as well
+• SystemUI: Prevent indicator text cutting off in biometric prompt
+• SystemUI: Implement pocket lock check for faceunlock
+• Fixed status bar icon padding
+• Fixed less boring heads up
+• Fixed support per-app volume
+• Bug fixes and other improvements
+• Updated translations
+Device changes:
+• Use Natural color display by default
+• Declare some permissions for Google apps
+• use TLSv1.2-only for SUPL
+===================
+19th January, 2025
+===================
+ROM changes:
+• Initial crDroid 11.1 release
+• Updated Security Patches to January 2025 (android-15.0.0_r10)
+• Fully rebased on top of QPR1
+• Add optional wind info & humidity on lockscreen
+• Add option to allow app downgrade
+• Update for split shade QS default
+• Bug fixes and other improvements (a lot to be tracked)
+• Updated translations
+Device changes:
+• Updated to January SPL blobs (android-15.0.0_r10)
+• Add missing IWLAN packages
+• Added some missing sepolicy issues
+• Fix Device As Webcam (now should work properly)
+• Fix some padding issues
+===================
+20th December, 2024
+===================
+ROM changes:
+• Initial Android 15 stable release
+• Various fixes and improvements
+• Updated translations
+Device changes:
+• Repartitioned system, system_ext and product partitions (to fit full NikGapps)
+• updated UDFPS position and dimension (bigger now)
+===================
 09th December, 2024
 ===================
 ROM changes:

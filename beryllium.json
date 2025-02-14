@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Lup Gabriel (gwolfu)",
-			"oem": "Poco",
-			"device": "Pocophone F1",
-			"filename": "crDroidAndroid-15.0-20241217-beryllium-v11.0.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/beryllium/11.x/crDroidAndroid-15.0-20241217-beryllium-v11.0.zip/download",
-			"timestamp": 1734431074,
-			"md5": "5773e65c3ba99f08d6d61e0062995db3",
-			"sha256": "d04f27bb2ddf7e5ca15622dfa0432409498b34d84a7ea92bf19afd403c6fd314",
-			"size": 1364047320,
-			"version": "11.0",
-			"buildtype": "Weekly",
-			"forum": "https://xdaforums.com/t/4704307",
-			"gapps": "https://sourceforge.net/projects/crdroid/files/gapps/",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/beryllium/11.x/recovery/",
-			"paypal": "https://paypal.me/gwolf2u",
-			"telegram": "https://t.me/crDroidPoco",
-			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_beryllium",
-			"common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sdm845-common",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sdm845"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "Lup Gabriel (gwolfu)",
+            "oem": "Poco",
+            "device": "Pocophone F1",
+            "filename": "crDroidAndroid-15.0-20250209-beryllium-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/beryllium/11.x/crDroidAndroid-15.0-20250209-beryllium-v11.2.zip/download",
+            "timestamp": 1739116086,
+            "md5": "7905c22cf2b68fdbc85976fa2c5e1875",
+            "sha256": "d1412a7bc13a71b6d9419d3098059d247671faf9190be026302d441b479cff5d",
+            "size": 1378395590,
+            "version": "11.2",
+            "buildtype": "Weekly",
+            "forum": "https://xdaforums.com/t/4704307",
+            "gapps": "https://sourceforge.net/projects/crdroid/files/gapps/",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/beryllium/11.x/recovery/",
+            "paypal": "https://paypal.me/gwolf2u",
+            "telegram": "https://t.me/crDroidPoco",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_beryllium",
+            "common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sdm845-common",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sdm845"
+        }
+    ]
 }

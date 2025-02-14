@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "Rakhshan (shan_rakh)",
+            "oem": "Motorola",
+            "device": "Motorola Edge 30",
+            "filename": "crDroidAndroid-15.0-20250210-dubai-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/dubai/11.x/crDroidAndroid-15.0-20250210-dubai-v11.2.zip/download",
+            "timestamp": 1739183740,
+            "md5": "a2f980b6943fdbb4d68bafb77d0ae322",
+            "sha256": "fcf884860c06210def40f5410b16e0a20f456b38d7f25ebe39212e90806f156a",
+            "size": 1538746944,
+            "version": "11.2",
+            "buildtype": "Weekly",
+            "forum": "https://xdaforums.com/t/rom-15-official-crdroid-for-motorola-edge-30-dubai-xt2203-1.4708148/",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Releases/Android-15/",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/dubai/11.x/recovery/",
+            "paypal": "",
+            "telegram": "https://t.me/ararchive_shan_rakh_discussion",
+            "dt": "https://github.com/crdroidandroid/android_device_motorola_dubai",
+            "common-dt": "https://github.com/crdroidandroid/android_device_motorola_sm7325-common/tree/15.0",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_motorola_sm7325/tree/15.0"
+        }
+    ]
+}

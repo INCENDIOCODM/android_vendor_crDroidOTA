@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "alqix",
-			"oem": "Samsung",
-			"device": "Samsung A73 5G",
-			"filename": "crDroidAndroid-15.0-20241216-a73xq-v11.0.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/a73xq/11.x/crDroidAndroid-15.0-20241216-a73xq-v11.0.zip/download",
-			"timestamp": 1734382978,
-			"md5": "fe02160a9036ac75d27088f27aadc8c0",
-			"sha256": "b587af2d4b64e8308206d277910fe6409d691d53d4c2e4179e44e9022b96c075",
-			"size": 1694718197,
-			"version": "11.0",
-			"buildtype": "Monthly",
-			"forum": "https://xdaforums.com/t/rom-15-0-encryption-unofficial-crdroid-11-for-a73-5g.4700704/",
-			"gapps": "https://nikgapps.com/crdroid-official",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/a73xq/11.x/recovery/recovery-20241217.img/download",
-			"paypal": "",
-			"telegram": "https://t.me/alqnisot",
-			"dt": "https://github.com/crdroidandroid/android_device_samsung_a73xq",
-			"common-dt": "https://github.com/crdroidandroid/android_device_samsung_sm7325-common",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_samsung_sm7325"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "alqix",
+            "oem": "Samsung",
+            "device": "Samsung A73 5G",
+            "filename": "crDroidAndroid-15.0-20250210-a73xq-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/a73xq/11.x/crDroidAndroid-15.0-20250210-a73xq-v11.2.zip/download",
+            "timestamp": 1739140998,
+            "md5": "0ec7f5641355ce5c7094dfb12dcfca4d",
+            "sha256": "796773bdfe7220845f6b4a477c846be4e3bd5ca7e98fbbd39c7d68c506ec1d46",
+            "size": 1516032675,
+            "version": "11.2",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-15-0-encryption-official-crdroid-11-for-a73-5g.4700704/",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/a73xq/11.x/recovery/20250210-recovery.img/download",
+            "paypal": "",
+            "telegram": "https://t.me/alqnisot",
+            "dt": "https://github.com/crdroidandroid/android_device_samsung_a73xq",
+            "common-dt": "https://github.com/crdroidandroid/android_device_samsung_sm7325-common",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_samsung_sm7325"
+        }
+    ]
 }

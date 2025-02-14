@@ -1,0 +1,13 @@
+====================
+     12-20-2024
+====================
+-Initial release
+
+====================
+     01-21-2025
+====================
+- Rebased Trees
+- Disabled 4k@60fps (not supported by our device)
+- Fixed lockscreen charging info
+- Minor tweaks
+

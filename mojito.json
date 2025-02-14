@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "Anush Madhathumkara (Anush02198)",
+            "oem": "Redmi",
+            "device": "Redmi Note 10",
+            "filename": "crDroidAndroid-15.0-20250203-mojito-v11.1.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/mojito/11.x/crDroidAndroid-15.0-20250203-mojito-v11.1.zip/download",
+            "timestamp": 1738521108,
+            "md5": "efe48cf3a59afbc9c1a56560e609cc52",
+            "sha256": "deb754ff8e522cc513dc49511fb2250825b5aa9c8e4557dff069aa8cfb676a3a",
+            "size": 1417738727,
+            "version": "11.1",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-15-official-crdroid-android-v11-0-mojito-sunny.4644045/",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://eu.dl.twrp.me/mojito/",
+            "paypal": "https://paypal.me/anush02198",
+            "telegram": "https://t.me/jarn10g",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_mojito/tree/15.0",
+            "common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm6150-common/tree/15.0-mojito",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm6150/tree/15.0-mojito"
+        }
+    ]
+}

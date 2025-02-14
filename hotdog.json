@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "ShEV (ShevT)",
-			"oem": "OnePlus",
-			"device": "OnePlus 7T Pro",
-			"filename": "crDroidAndroid-15.0-20241216-hotdog-v11.0.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/hotdog/11.x/crDroidAndroid-15.0-20241216-hotdog-v11.0.zip/download",
-			"timestamp": 1734340163,
-			"md5": "426155513b7c4a3c12b18a73c7059060",
-			"sha256": "3c0f96d1f2503ace87f3583636dac1f6c56ae34b1d696f220a10b1efa5b0db60",
-			"size": 1412833566,
-			"version": "11.0",
-			"buildtype": "Weekly",
-			"forum": "https://xdaforums.com/t/4700873/",
-			"gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/",
-			"firmware": "https://sourceforge.net/projects/crdroid/files/hotdog/11.x/firmware/",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/hotdog/11.x/recovery/",
-			"paypal": "https://paypal.me/crdroidandroid",
-			"telegram": "https://t.me/crdroid9_hotdog",
-			"dt": "https://github.com/crdroidandroid/android_device_oneplus_hotdog",
-			"common-dt": "https://github.com/crdroidandroid/android_device_oneplus_sm8150-common",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_oneplus_sm8150"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "ShEV (ShevT)",
+            "oem": "OnePlus",
+            "device": "OnePlus 7T Pro",
+            "filename": "crDroidAndroid-15.0-20250210-hotdog-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/hotdog/11.x/crDroidAndroid-15.0-20250210-hotdog-v11.2.zip/download",
+            "timestamp": 1739158899,
+            "md5": "f378d306d85e477eed3da3e7a0c5d4ad",
+            "sha256": "965ffe28fa8da506193895a314e3a0a20cff944f41f4a6d02f17806bb6fa1181",
+            "size": 1419599842,
+            "version": "11.2",
+            "buildtype": "Weekly",
+            "forum": "https://xdaforums.com/t/4700873/",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/",
+            "firmware": "https://sourceforge.net/projects/crdroid/files/hotdog/11.x/firmware/",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/hotdog/11.x/recovery/",
+            "paypal": "https://paypal.me/crdroidandroid",
+            "telegram": "https://t.me/crdroid9_hotdog",
+            "dt": "https://github.com/crdroidandroid/android_device_oneplus_hotdog",
+            "common-dt": "https://github.com/crdroidandroid/android_device_oneplus_sm8150-common",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_oneplus_sm8150"
+        }
+    ]
 }

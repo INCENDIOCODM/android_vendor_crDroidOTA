@@ -1,0 +1,380 @@
+====================
+     02-11-2025
+====================
+
+   * device/qcom/sepolicy_vndr/legacy-um
+d929ad8 sepolicy_vndr: allow sensors HAL to do binder call to system_server
+
+   * device/qcom/sepolicy_vndr/sm8450
+76a576a sepolicy_vndr: allow sensors HAL to do binder call to system_server
+
+   * device/samsung/a52q
+40c0f6f Update proprietary-files.txt - add back libsec2qc_conversion blob
+
+   * device/samsung/a72q
+e62c14b Update proprietary-files.txt - add back libsec2qc_conversion blob
+
+   * device/samsung/sm7125-common
+16108cf Update proprietary-files.txt - Remove OMX Audio codecs
+
+   * frameworks/base
+a7e88550d Do not post notification when system boot is not ready.
+
+   * frameworks/native
+3bbc693 Fix SurfaceFlinger crash caused by layerleak
+
+   * hardware/lineage/interfaces
+8f445d1 fingerprint: aidl: Improve documentation on sensor_location
+
+====================
+     02-10-2025
+====================
+
+   * packages/apps/Twelve
+dec2d10 Twelve: Make togglePlayPause() rewind if playback has ended
+
+   * vendor/samsung/sm7125-common
+d1bbfbc Reapply "sm7125-common: Remove OMX audio codecs"
+
+====================
+     02-09-2025
+====================
+
+   * android
+9181b57 manifest: Track pixel overlays
+
+   * build/make
+288ef3a build_image: get squashfs partition size from image size
+
+   * build/soong
+c7991dd soong: Set ro.crdroid.device
+
+   * frameworks/av
+ee0cbe6 fixup! av: support per-app volume [1/3]
+
+   * hardware/qcom-caf/msm8998/audio
+970b452 hal: update audio effects config names
+
+   * hardware/qcom-caf/sdm845/audio
+d6b236a visualizer: do not use GNU old-style field designators
+
+   * hardware/qcom-caf/sm8150/audio
+15dc2b0 visualizer: do not use GNU old-style field designators
+
+   * hardware/qcom-caf/sm8250/audio
+0547a74 visualizer: do not use GNU old-style field designators
+
+   * hardware/qcom-caf/sm8250/media
+3bfc8dd mm-core: Remove no longer used codecs
+
+   * hardware/qcom-caf/sm8350/audio
+452725a audio: Drop STT meta test app
+
+   * lineage-sdk
+9010b25 Merge 'lineage-22.1' into 15.0
+
+   * packages/apps/Dialer
+c135461 Merge 'lineage-22.1' into 15.0
+
+   * packages/apps/DocumentsUI
+478d895 Merge 'lineage-22.1' into 15.0
+
+   * packages/apps/LineageParts
+01061b3 Disable unused components
+
+   * packages/apps/Messaging
+995da78 Merge 'lineage-22.1' into 15.0
+
+   * packages/apps/Settings
+b7d809a Revert "Update the battery saver scheduler minimum level"
+
+   * packages/apps/SetupWizard
+885539a SetupWizard: Add graphic for theme select page
+
+   * packages/apps/Updater
+35d7963 New translations (#84)
+
+   * packages/modules/Bluetooth
+9061231 BondStateMachine: Fix NPE on some devices
+
+   * packages/services/OmniJaws
+4e8be72 OmniJaws: fix error handling and clear cached weather data
+
+   * packages/services/Telecomm
+840cac7 Add back increasing ring feature (1/2).
+
+   * system/core
+61a7ea8 Add missing <stdlib.h> for calloc()/free()/strtoul().
+
+   * vendor/lineage
+ee4ebb3 config: Include pixeloverlays
+
+   * vendor/pixeloverlays
+b70f7c5 overlays: Add support for Pixel 9 Pro Fold (comet)
+
+====================
+     02-08-2025
+====================
+
+   * packages/apps/FMRadio
+f3eb07a FMRadio: Rework custom jni support
+
+   * packages/apps/GameSpace
+9c01b1e New Crowdin updates (#104)
+
+   * packages/apps/Launcher3
+f159d02 New Crowdin updates (#480)
+
+   * packages/apps/crDroidSettings
+471c282 New Crowdin updates (#1221)
+
+   * toolchain/pgo-profiles
+ef159ad Refreshed afdo profiles drop from ZP1A.250124.003.A1
+
+   * vendor/qcom/opensource/libfmjni
+c5ace14 libfmjni: Convert it to filegroup and header lib
+
+====================
+     02-07-2025
+====================
+
+   * art
+701b24c Fix the divide-by-zero in odrefresh.
+
+   * device/qcom/sepolicy_vndr/sm8550
+704bbd3 sepolicy: Add default permission for aidl hal_bootctl
+
+   * hardware/qcom-caf/bootctrl
+3adebe3 Stricter stat when checking for blockdevices
+
+   * hardware/qcom-caf/sm8550/dataipa
+b482ae4 dataipa: Disable all the debugging
+
+   * packages/apps/Glimpse
+c57bcd7 Glimpse: Create a Media out of thin air if not in media provider
+
+   * packages/services/Telephony
+8ae5931 Remove system dialer check from RemoteVvmTaskManager.
+
+====================
+     02-06-2025
+====================
+
+   * external/gptfdisk
+b605061 gptfdisk: Make libgptf available to product/vendor
+
+   * packages/apps/Camelot
+8318cbd Camelot: Update androidx.pdf to 1.0.0-alpha06
+
+====================
+     02-05-2025
+====================
+
+   * tools/extract-utils
+9d8fe9b extract-utils: Don't make extract-factory mutually exclusive
+
+====================
+     02-04-2025
+====================
+
+   * hardware/google/pixel
+15b40a4 pixel: Switch to common lineage powershare HAL
+
+   * hardware/google/pixel-sepolicy
+3961e30 pixel: Switch to common lineage powershare HAL
+
+   * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
+9bef0c7 data-ipa-cfg-mgr: Disable all the debugging
+
+   * hardware/qcom-caf/sm8550/data-ipa-cfg-mgr
+19ea389 data-ipa-cfg-mgr: Disable all the debugging
+
+   * hardware/qcom/data/ipacfg-mgr
+816edd3 Remove no longer used Android.mk guard
+
+   * hardware/samsung
+a6cc5c5 aidl: Add missing vintf version entries
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
+2456d63 data-ipa-cfg-mgr: Disable NAT_DUMP on non-debug builds
+
+====================
+     02-03-2025
+====================
+
+   * hardware/lineage/compat
+7697651 compat: libaudioclient: Shim MTK constructor as well
+
+====================
+     02-02-2025
+====================
+
+   * packages/inputmethods/LatinIME
+8d82685 Fix crash: NPE in SuggestionStripView in LatinIME
+
+   * vendor/addons
+b489d4bf addons: BlackTheme: Make more container surfaces black
+
+====================
+     02-01-2025
+====================
+
+   * android
+2a30311 manifest: Track clang-20 as latest
+
+   * frameworks/base
+200175e3d SystemUI: Fix slider tile layout issue on A11 QS style
+
+   * packages/apps/Dialer
+5ad8ece New translations (#143)
+
+   * packages/apps/Launcher3
+884939f New Crowdin updates (#477)
+
+   * packages/apps/crDroidSettings
+ab3bf3b New Crowdin updates (#1218)
+
+   * prebuilts/clang/host/linux-x86/clang-latest
+08404cd Update prebuilt Clang to r547379 (20.0.0)
+
+   * vendor/lineage
+ec161a0 soong: Make mkdir install dir optional
+
+   * vendor/samsung/sm7125-common
+0cbd0c5 sm7125-common: Remove OMX audio codecs
+
+====================
+     01-31-2025
+====================
+
+   * frameworks/av
+7bf00c3 CameraProviderExtension: add enabled bool and always set torch
+
+   * packages/apps/DeskClock
+01228be DeskClock: Fix angles in dynamic icon
+
+====================
+     01-30-2025
+====================
+
+   * vendor/qcom/opensource/commonsys/fm
+249783d FM: Add qcom.fmradio to required[]
+
+====================
+     01-29-2025
+====================
+
+   * device/qcom/sepolicy_vndr/legacy-um
+9c20ed7 legacy-um: vendor: Allow qtelephony to find vendor_hal_factory_aidlservice
+
+====================
+     01-28-2025
+====================
+
+   * packages/apps/Catapult
+93037f8 Catapult: Update notification layout
+
+   * packages/services/Telephony
+4833c9a Fix errorprone warnings
+
+====================
+     01-27-2025
+====================
+
+   * packages/apps/Glimpse
+7a8535c Glimpse: Lowercase cursor column names
+
+   * packages/apps/Twelve
+1d86b88 Twelve: Use library icon from design specifications
+
+   * tools/extract-utils
+70997b4 extract_utils: fix rules for QDSP6 blobs
+
+   * vendor/certification
+8e70173 certification: update props to the latest lynx beta (#2)
+
+====================
+     01-26-2025
+====================
+
+   * frameworks/libs/systemui
+17768fb iconloaderlib: Update themed icons color palette
+
+   * hardware/qcom-caf/sm8450/audio/graphservices
+d2201b4 Add missing speaker protection ch_enable VI and RX structs and constants
+
+   * hardware/qcom-caf/sm8450/audio/pal
+1fdf5fe libar-pal: Allow overriding speaker protection calibration path
+
+   * hardware/qcom-caf/sm8450/data-ipa-cfg-mgr
+49d1cfc ipanat: Remove test/Android.mk
+
+   * hardware/samsung
+c50248a Remove unused multimedia sources
+
+   * packages/apps/Settings
+4cbdf6d Use default letter spacing for category titles
+
+   * vendor/addons
+06c1dbe1 addons: Update themed icons
+
+   * vendor/qcom/opensource/core-utils-vendor
+115dcd7 qspaframework: Convert to blueprint
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
+59ed5d3 ipanat: Remove test/Android.mk
+
+   * vendor/qcom/opensource/dataservices
+b141057 datatop: Fix -Wstrict-prototypes errors
+
+====================
+     01-25-2025
+====================
+
+   * external/chromium-webview/prebuilt/arm
+14c6dd7 Update Chromium Webview arm prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/arm64
+4f52cbf Update Chromium Webview arm64 prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/x86
+750817b Update Chromium Webview x86 prebuilt to 132.0.6834.122
+
+   * external/chromium-webview/prebuilt/x86_64
+9b01a3c Update Chromium Webview x86_64 prebuilt to 132.0.6834.122
+
+   * hardware/qcom-caf/common
+f7e3ba2 common: Enable master side content protection with soong
+
+   * hardware/qcom-caf/sm8450/audio/agm
+4762da7 Fix format specifiers
+
+====================
+     01-24-2025
+====================
+
+   * external/chromium-webview/patches
+8854626 Update Chromium Webview to 132.0.6834.122
+
+   * hardware/lineage/compat
+85d5c13 Introduce libnativehelper shim
+
+   * lineage/scripts
+78bbda3 build-webview: Update default webview to 132.0.6834.122
+
+   * packages/apps/Car/Settings
+a486d48 fixup! Hardcode default pattern size
+
+   * packages/apps/DocumentsUI
+bb42e18 Merge pull request #2 from tavukkdoner/15.0
+
+   * packages/apps/Etar
+6fa7ca7 Update dependencies
+
+   * packages/apps/LMOFreeform
+516657d Merge pull request #1 from priiii08918/15.0
+
+====================
+     01-23-2025
+====================
+

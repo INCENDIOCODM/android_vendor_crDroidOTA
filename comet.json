@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Pranav Vashi (neobuddy89)",
-			"oem": "Google",
-			"device": "Pixel 9 Pro Fold",
-			"filename": "crDroidAndroid-15.0-20241216-comet-v11.0.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/comet/11.x/crDroidAndroid-15.0-20241216-comet-v11.0.zip/download",
-			"timestamp": 1734359229,
-			"md5": "2f3db18dbd36a9470d1bd86b460fe61b",
-			"sha256": "7067aaa8d53686f00eec61ac1ca130c8fc22d3c2855c2d7b98b479dc8c6ebbfa",
-			"size": 1954573846,
-			"version": "11.0",
-			"buildtype": "Weekly",
-			"forum": "https://xdaforums.com/t/rom-15-pixel-9-pro-fold-crdroid-v11-official.4701754/",
-			"gapps": "https://nikgapps.com/crdroid-official",
-			"firmware": "https://sourceforge.net/projects/crdroid/files/comet/11.x/recovery",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/comet/11.x/recovery",
-			"paypal": "https://www.paypal.com/paypalme/neobuddy89",
-			"telegram": "https://t.me/crDroidPixel9",
-			"dt": "https://github.com/crdroidandroid/android_device_google_comet",
-			"common-dt": "https://github.com/crdroidandroid/android_device_google_zumapro",
-			"kernel": "https://android.googlesource.com/device/google/comet-kernels/6.1"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "Pranav Vashi (neobuddy89)",
+            "oem": "Google",
+            "device": "Pixel 9 Pro Fold",
+            "filename": "crDroidAndroid-15.0-20250210-comet-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/comet/11.x/crDroidAndroid-15.0-20250210-comet-v11.2.zip/download",
+            "timestamp": 1739156057,
+            "md5": "b9f8a049ae8bdb22f796a1528f41eb76",
+            "sha256": "85be08eb01a8919b56bce73a198572b06fad81d3195b760524e2db2a5dbbe9c1",
+            "size": 1886227361,
+            "version": "11.2",
+            "buildtype": "Weekly",
+            "forum": "https://xdaforums.com/t/rom-15-pixel-9-pro-fold-crdroid-v11-official.4701754/",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "https://sourceforge.net/projects/crdroid/files/comet/11.x/recovery",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/comet/11.x/recovery",
+            "paypal": "https://www.paypal.com/paypalme/neobuddy89",
+            "telegram": "https://t.me/crDroidPixel9",
+            "dt": "https://github.com/crdroidandroid/android_device_google_comet",
+            "common-dt": "https://github.com/crdroidandroid/android_device_google_zumapro",
+            "kernel": "https://android.googlesource.com/device/google/comet-kernels/6.1"
+        }
+    ]
 }

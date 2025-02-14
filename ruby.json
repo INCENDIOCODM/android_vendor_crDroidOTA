@@ -1,0 +1,28 @@
+{
+	"response": [
+		{
+			"maintainer": "postcumer",
+			"oem": "Redmi",
+			"device": "Redmi Note 12 Pro 5G",
+			"filename": "crDroidAndroid-15.0-20241221-ruby-v11.0.zip",
+			"download": "https://sourceforge.net/projects/crdroid/files/ruby/11.x/crDroidAndroid-15.0-20241221-ruby-v11.0.zip/download",
+			"timestamp": 1734807650,
+			"md5": "524f14978325e4f8980af82f76301e08",
+			"sha256": "08804730cd6e5a7234b85b04245a2ab133079d09024603a531766fb73c1dba29",
+			"size": 1471195608,
+			"version": "11.0",
+			"buildtype": "Monthly",
+			"forum": "https://xdaforums.com/t/rom-15-unofficial-crdroid-v11-aosp-stable.4709159/",
+			"gapps": "https://nikgapps.com/crdroid-official",
+			"firmware": "",
+			"modem": "",
+			"bootloader": "",
+			"recovery": "",
+			"paypal": "",
+			"telegram": "https://t.me/doxodumps",
+			"dt": "https://github.com/crdroidandroid/android_device_xiaomi_ruby",
+			"common-dt": "",
+			"kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_mt6877"
+		}
+	]
+}

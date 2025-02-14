@@ -4,24 +4,13 @@ Device: OnePlus 8T (kebab)
 Device maintainer: Bojan Tanasic (bojantanasic)
 
 ====================
-     12-16-2024
+     02-09-2025
 ====================
  
-- Initial Android 15 stable release
-- Add OnePlus Camera
-- Fixed failing basic SafetyNet attestation without root (again)
-- Allow more than 1 floating window via sidebar
-- Improved attestation hooks to parse working props online
-- Improved smartspace toggle - do not hide date when smartspace disabled.
-- Improved brightness slider for QS panel
-- Fixes for clipboard auto clear settings
-- Fixes for WiFi related issues in some instances
-- Setting no action for double tap Recents will reflect stock behavior
-- Added pixel framework support
-- Switched to Google Faceunlock
-- Added toggle for smartspace on lockscreen (crdroid > lockscreen)
-- Added sidebar customization (crdroid > misc)
-- Added customization for recents double-tap on 3-button navbar (crdroid > navigation)
-- Added 5G toggle in internet QS tile
-- Fixed third party icon packs on launcher
+- Android February 2025 Security Update
+- update Adreno driver to v.768
+- Fixed "Less boring heads-up" option (crdroid > notifications)
+- Added compact heads-up toggle (crdroid > notifications)
+- Moved "Circle to search" toggle to navigation gesture settings, improving 3rd party launcher support.
+- Navigation gesture settings are now located under Settings > System
 - Various fixes and improvements

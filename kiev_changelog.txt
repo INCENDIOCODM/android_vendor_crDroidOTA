@@ -3,6 +3,22 @@ Build type: Weekly
 Device: Motorola Moto G 5G
 Device maintainer: tilt-rgb
 
+== 09 February , 2025 =====
+
+- Switch to 64 bits only (be careful if you have 32-bit only applications before updating)
+- Updated Thermal Blobs from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
+- Updated Keymaster/Gatekeeper blobs from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
+- Droped OMX Support (migrated to Codec2)
+- Migrate to QCOM implementation for audio effects
+- Disable FRP
+- crDroid v11.2 with February 2025 security patches
+
+== 20 December , 2025 =====
+
+- Switched to KernelSu Next
+- Updated Charger blobs from Edge 30
+- Latest Changes from crDroid
+
 == 17 December , 2024 =====
 
 - Release stable version

@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Pranav Vashi (neobuddy89)",
-			"oem": "Google",
-			"device": "Pixel 9 Pro XL",
-			"filename": "crDroidAndroid-15.0-20241216-komodo-v11.0.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/komodo/11.x/crDroidAndroid-15.0-20241216-komodo-v11.0.zip/download",
-			"timestamp": 1734346192,
-			"md5": "7162f011404c7401a0e9421268fcca8e",
-			"sha256": "bbdb443c299969f6c6ba509e558bebaa8867a486b05e13737cbd7ca4440c4d03",
-			"size": 2143064607,
-			"version": "11.0",
-			"buildtype": "Weekly",
-			"forum": "https://xdaforums.com/t/rom-15-p9pro-p9proxl-crdroid-v11-official.4700601/",
-			"gapps": "https://nikgapps.com/crdroid-official",
-			"firmware": "https://sourceforge.net/projects/crdroid/files/komodo/11.x/recovery",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/komodo/11.x/recovery",
-			"paypal": "https://www.paypal.com/paypalme/neobuddy89",
-			"telegram": "https://t.me/crDroidPixel9",
-			"dt": "https://github.com/crdroidandroid/android_device_google_komodo",
-			"common-dt": "https://github.com/crdroidandroid/android_device_google_caimito",
-			"kernel": "https://android.googlesource.com/device/google/caimito-kernels/6.1"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "Pranav Vashi (neobuddy89)",
+            "oem": "Google",
+            "device": "Pixel 9 Pro XL",
+            "filename": "crDroidAndroid-15.0-20250210-komodo-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/komodo/11.x/crDroidAndroid-15.0-20250210-komodo-v11.2.zip/download",
+            "timestamp": 1739162603,
+            "md5": "d5e99af18243fe50e12ae8aaabfeb4bd",
+            "sha256": "54e22742b037cc3b633e766bd95ae85642661cd91b34b8b0dc65db200ca59751",
+            "size": 2043193604,
+            "version": "11.2",
+            "buildtype": "Weekly",
+            "forum": "https://xdaforums.com/t/rom-15-p9pro-p9proxl-crdroid-v11-official.4700601/",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "https://sourceforge.net/projects/crdroid/files/komodo/11.x/recovery",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/komodo/11.x/recovery",
+            "paypal": "https://www.paypal.com/paypalme/neobuddy89",
+            "telegram": "https://t.me/crDroidPixel9",
+            "dt": "https://github.com/crdroidandroid/android_device_google_komodo",
+            "common-dt": "https://github.com/crdroidandroid/android_device_google_caimito",
+            "kernel": "https://android.googlesource.com/device/google/caimito-kernels/6.1"
+        }
+    ]
 }

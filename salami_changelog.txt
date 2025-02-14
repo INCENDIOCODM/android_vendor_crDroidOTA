@@ -1,10 +1,33 @@
 Highlights & Device Specific Changes:
-Build type: Weekly
+Build type: Monthly
 Device: OnePlus 11 5G (salami)
 Device maintainer: Pranav Vashi (neobuddy89)
 
 Highlights & Device Specific Changes:
 
+==================================
+6th February, 2025
+
+* Make launcher app drawer background opaque and improve colors
+* Fix lens shortcut on searchbar of launcher
+* Fix crash while using sidebar in some instances
+* Fix icon shapes not visible in Wallpaper & Styles
+* Disabled AOSP frame rate limit for games
+* Various fixes and improvements
+ 
+==================================
+19th January, 2025
+
+* Initial Android 15 QPR1 + January 2025 Security Update
+* Switch to split shade QS for landscape mode
+* Added toggle to allow application downgrade (crdroid > misc)
+* Added more weather elements for custom weather on lockscreen (crdroid > lockscreen)
+* Switching between smartspace and custom weather requires SystemUI/System restart
+* Allow disabling private DNS for VPN (Settings > Network > DNS)
+* Added Circle to Search support - Requires Google Search (Launcher settings > misc)
+* Reworked QS theme color
+* Various fixes and improvements
+ 
 ==================================
 16th December, 2024
 

@@ -5,7 +5,37 @@ Device maintainer:Vikas (Vikas_2_0)
 
 Highlights & Device Specific Changes:
 
+===== 20250203 =====
+- Certification: update props to the latest lynx beta
+- DeskClock: Fix angles in dynamic icon
+- SystemUI: Fix Flashlight tile for A11 QS style
+- SystemUI: Fix Internet Tile showing no service
+- Bluetooth: fetch battery level from any device
+- Status Bar Tuner: Fix preference icon tint
+- AudioService: do not block focus request from applications compiled with lower version sdks
+- fixup! base: Allow customizing volume stream steps
+- Updated themed icons
+- Updated Twelve, Glimpse, Eleven
+- Updated translations
+- Add more Pixel camera prebuilts
 
+
+
+
+=====================================
+24th January, 2025
+===================
+ROM changes:
+• Initial crDroid 11.1 release
+• Updated Security Patches to January 2025 (android-15.0.0_r10)
+• Fully rebased on top of QPR1
+• Add optional wind info & humidity on lockscreen
+• Add option to allow app downgrade
+• Update for split shade QS default
+• Bug fixes and other improvements (a lot to be tracked)
+• Various fixes and improvements
+• Updated translations
+• Updated to January SPL blobs (android-15.0.0_r10)
 
 ====================
      24-11-2024

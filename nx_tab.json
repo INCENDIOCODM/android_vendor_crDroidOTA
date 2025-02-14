@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Ivy (Lost-Entrepreneur439)",
-			"oem": "Nintendo",
-			"device": "Switch",
-			"filename": "crDroidAndroid-15.0-20241214-nx_tab-v11.0-BETA.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/nx_tab/11.x/crDroidAndroid-15.0-20241214-nx_tab-v11.0-BETA.zip/download",
-			"timestamp": 1734216020,
-			"md5": "24e57db2c02666b9132b8b98677f2f23",
-			"sha256": "b41648efffc18625c0235bbb0dbe62e3289c80a97e985525090d26a548a850ca",
-			"size": 1068679390,
-			"version": "11.0",
-			"buildtype": "BETA",
-			"forum": "https://xdaforums.com/t/rom-official-beta-15-0-crdroid-11-for-nintendo-switch.4702165/",
-			"gapps": "https://nikgapps.com/crdroid-official",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/nx_tab/11.x/recovery/",
-			"paypal": "",
-			"telegram": "",
-			"dt": "https://github.com/crdroidandroid/android_device_nintendo_nx",
-			"common-dt": "https://github.com/crdroidandroid/android_device_nvidia_t210-common",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_nvidia_kernel-nx"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "Ivy (Lost-Entrepreneur439)",
+            "oem": "Nintendo",
+            "device": "Switch",
+            "filename": "crDroidAndroid-15.0-20250210-nx_tab-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/nx_tab/11.x/crDroidAndroid-15.0-20250210-nx_tab-v11.2.zip/download",
+            "timestamp": 1739180771,
+            "md5": "5763870dfb1d1ca4d3cbd98f9e862838",
+            "sha256": "7dc148e5643ddc2bc87295cd0ededc8d0b6dc085b63c94793a5d26e11298884f",
+            "size": 1080912837,
+            "version": "11.2",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-official-15-0-crdroid-11-for-nintendo-switch.4702165/",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/nx_tab/11.x/recovery/",
+            "paypal": "",
+            "telegram": "",
+            "dt": "https://github.com/crdroidandroid/android_device_nintendo_nx",
+            "common-dt": "https://github.com/crdroidandroid/android_device_nvidia_t210-common",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_nvidia_kernel-nx"
+        }
+    ]
 }

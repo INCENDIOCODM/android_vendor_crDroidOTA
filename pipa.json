@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "Varun Soma",
+            "oem": "Xiaomi",
+            "device": "Pad 6",
+            "filename": "crDroidAndroid-15.0-20250212-pipa-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/pipa/11.x/crDroidAndroid-15.0-20250212-pipa-v11.2.zip/download",
+            "timestamp": 1739346342,
+            "md5": "ee9094139d76abaa4cdff8120dac6fe3",
+            "sha256": "a426504dd8222b9a0c7532fbec62a25c7674575662984b4368c53ad9aa3605d6",
+            "size": 1320556925,
+            "version": "11.2",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/beta-crdroid-11-x-a15-pipa.4641070/",
+            "gapps": "https://wiki.lineageos.org/gapps/",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "",
+            "paypal": "https://www.paypal.com/paypalme/vrnsoma",
+            "telegram": "https://t.me/mipad6",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_pipa/tree/15.0",
+            "common-dt": "https://github.com/crdroidandroid/android_device_xiaomi_sm8250-common/tree/15.0-pipa",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm8250/tree/15.0-pipa"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "Vishwajith K V(leoxvis)",
+            "oem": "Xiaomi",
+            "device": "Xiaomi Mi A3",
+            "filename": "crDroidAndroid-15.0-20250121-laurel_sprout-v11.1.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/laurel_sprout/11.x/crDroidAndroid-15.0-20250121-laurel_sprout-v11.1.zip/download",
+            "timestamp": 1737434986,
+            "md5": "1f59b7425db7d1ffe3fb4450704fe8f9",
+            "sha256": "5020341ba9b76eae2f0f51b72d10c70447e55ba8fa7b61f55d657e779f29dad4",
+            "size": 1162209409,
+            "version": "11.1",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-15-0-crdroid-11-0-official.4708883/",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-15/",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://github.com/vishwajithkv/device_xiaomi_laurel_sprout/releases/download/stable/crdrecovery.img",
+            "paypal": "",
+            "telegram": "https://t.me/crdroid_mi_a3",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_laurel_sprout",
+            "common-dt": "",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_laurel_sprout"
+        }
+    ]
+}

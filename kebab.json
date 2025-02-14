@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "Bojan Tanasic (bojantanasic)",
-			"oem": "OnePlus",
-			"device": "OnePlus 8T",
-			"filename": "crDroidAndroid-15.0-20241216-kebab-v11.0.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/kebab/11.x/crDroidAndroid-15.0-20241216-kebab-v11.0.zip/download",
-			"timestamp": 1734371360,
-			"md5": "dfa0e3f11f36b56ba1ba4e2f4257642d",
-			"sha256": "00c8c97ac0c21eba6a6a7360c8984f4beef36317b8206706313a20f83227160c",
-			"size": 1854322669,
-			"version": "11.0",
-			"buildtype": "Monthly",
-			"forum": "https://xdaforums.com/t/rom-14-official-8t-crdroid-v10-8-14-09-2024.4692700/",
-			"gapps": "https://nikgapps.com/crdroid-official",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/kebab/11.x/recovery/",
-			"paypal": "https://www.paypal.com/paypalme/bojantanasic",
-			"telegram": "https://t.me/crDroid10",
-			"dt": "https://github.com/crdroidandroid/android_device_oneplus_kebab",
-			"common-dt": "https://github.com/crdroidandroid/android_device_oneplus_sm8250-common",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_oneplus_sm8250"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "Bojan Tanasic (bojantanasic)",
+            "oem": "OnePlus",
+            "device": "OnePlus 8T",
+            "filename": "crDroidAndroid-15.0-20250209-kebab-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/kebab/11.x/crDroidAndroid-15.0-20250209-kebab-v11.2.zip/download",
+            "timestamp": 1739133240,
+            "md5": "fee97629cc2cbb5171e58f84e79fdfc4",
+            "sha256": "af17928496a63524a987b3aa5c34801555215d6bfe3a35761eb03f89095a44e7",
+            "size": 1883512650,
+            "version": "11.2",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-14-official-8t-crdroid-v10-8-14-09-2024.4692700/",
+            "gapps": "https://nikgapps.com/crdroid-official",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/kebab/11.x/recovery/",
+            "paypal": "https://www.paypal.com/paypalme/bojantanasic",
+            "telegram": "https://t.me/crDroid10",
+            "dt": "https://github.com/crdroidandroid/android_device_oneplus_kebab",
+            "common-dt": "https://github.com/crdroidandroid/android_device_oneplus_sm8250-common",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_oneplus_sm8250"
+        }
+    ]
 }

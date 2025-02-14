@@ -1,11 +1,54 @@
 Highlights & Device Specific Changes:
-Build type: Beta
+Build type: Stable
 Device: Google Pixel 2 XL (taimen)
 Device maintainer: Ionut Gherman (ionutgherman)
 
 Highlights & Device Specific Changes:
 =====================================
-18th November, 2024
+08th February, 2025
 ===================
-• Initial official beta build
+ROM changes:
+• Launcher3: Update folder preview and background color
+• SystemUI: Apply burn-in translations to weather view as well
+• SystemUI: Prevent indicator text cutting off in biometric prompt
+• SystemUI: Implement pocket lock check for faceunlock
+• SystemUI: Fixed status bar icon padding
+• SystemUI: Fixed less boring heads up
+• Fixed support per-app volume
+• Bug fixes and other improvements
+• Updated translations
+===================
+19th January, 2025
+==================
+ROM changes:
+• Initial crDroid 11.1 release
+• Updated Security Patches to January 2025 (android-15.0.0_r10)
+• Fully rebased on top of QPR1
+• Add optional wind info & humidity on lockscreen
+• Add option to allow app downgrade
+• Update for split shade QS default
+• Bug fixes and other improvements (a lot to be tracked)
+• Updated translations
+Device changes:
+• Fixing bootloop on vanilla builds due to missing Google Camera permission
+===================
+21th December, 2024
+===================
+ROM changes:
+• Initial official stable build
+• Android 15 Source Code Base: Built on the latest Android 15, crDroid 11 offers the newest features, improved security, and enhanced performance.
+• Refined Battery Management: Enjoy extended battery life with our improved power optimization algorithms.
+• Updated Settings Visuals: Navigate a cleaner and more intuitive settings menu, with a fresh look and better organization.
+• New Freeform Mode: Multitasking just got better! Easily resize and manage app windows for improved productivity.
+• Online PixelPropUtils Fingerprint Updates: A new online mechanism ensures quick Pixel Integrity validation for seamless Google Play compatibility.
+• New Music Player: Enhanced with a sleek design and more playback features.
+• GameSpace Updates: Take your gaming experience to the next level.
+• Sidebar: Quickly access your favorite apps with a customizable sidebar.
+• Improved Smartspace Controls: Better integration and customization for your home screen widgets.
+• Weather Widget Updates: A revamped design with accurate and detailed weather data.
+• All our crDroid 10 features: Normally we would not leave our crDroid 10 features behind.
+Many more
+Device changes:
+• Repartition for system, product and system_ext. Follow instructions for the steps!
+• Fix WPA3
 ===================

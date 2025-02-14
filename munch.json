@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "Rik",
+            "oem": "Poco",
+            "device": "Poco F4",
+            "filename": "crDroidAndroid-15.0-20250120-munch-v11.1.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/munch/11.x/crDroidAndroid-15.0-20250120-munch-v11.1.zip/download",
+            "timestamp": 1737369114,
+            "md5": "d66e88b6bd9eb1bd816f97252988e5bd",
+            "sha256": "82d86185915d3892207778d0f0a77d85eeffa2e66ff0ca47324efad6c7264b58",
+            "size": 1669331268,
+            "version": "11.1",
+            "buildtype": "Monthly",
+            "forum": "https://xdaforums.com/t/rom-official-crdroid-11-poco-f4-redmi-k40s-munch.4712700",
+            "gapps": "https://github.com/BiTGApps/release/releases/download/v4.5-release/BiTGApps-arm64-15.0.0-v4.5-CORE.zip",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/recovery-for-xiaomi-devices/files/munch/twrp-3.7.1_12-v9.0_A15-munch-skkk.img/download",
+            "paypal": "https://paypal.me/rikx290",
+            "telegram": "https://t.me/munch_chat",
+            "dt": "https://github.com/crdroidandroid/android_device_xiaomi_munch",
+            "common-dt": "",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm8250/tree/15.0-munch"
+        }
+    ]
+}

@@ -6,6 +6,34 @@ Note:
     * Can be flashed via recovery like TWRP/OFOX
     * If you have any issues like frequent force close, the issue could be gapps not flashed properly
 
+Changelog:12/02/2025
+- Source upstream
+
+Changelog:01/02/2025
+- Source upstream
+- Move to Xiaomi IR AIDL
+
+Changelog:29/01/2025
+- Source upstream
+- Remove direct flag for VOIP RX (Fixes the problem of WhatsApp, Telegram etc..)
+- dolby: Apply NLSound 4.1
+- Kernel upstream
+
+Changelog:22/01/2025
+- Source upstream
+
+Changelog:28/12/2024
+- Disable FRP
+
+Changelog:26/12/2024
+- Source upstream
+- Fixed cracking sound on speaker mode with Dolby turned on
+- Make bass enhancer available on speakers as well
+- Bring all stream effects
+
+Changelog:18/12/2024
+- Reworked on vibration and made stronger like crDroid 10.10 (A14)
+
 Changelog:17/12/2024
 - Source upstream Beta to Stable
 

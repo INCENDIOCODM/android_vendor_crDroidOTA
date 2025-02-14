@@ -1,0 +1,38 @@
+Highlights & Device Specific Changes:
+Build type: Weekly
+Device: Motorola Edge 30 (dubai)
+Device maintainer: Rakhshan (shan_rakh)
+
+====================
+     10-02-2025
+====================
+- crDroid 11.2
+- February Security Patch
+
+====================
+     03-02-2025
+====================
+- Added support for KernelSU Next (1.0.4)
+- Added Support for Qcom Audio Effects (improved base and reverberation)
+- Reserved 100mb of space in vendor, system, systm_ext and 1.5gb in product partition
+
+====================
+     19-01-2025
+====================
+- Added Viper4Fx 
+- November Vendor Security Patch
+- January Android Security Patch
+- Initial crDroid 11.1 Stable (QPR1)
+
+====================
+     22-12-2024
+====================
+- Enabled Blur
+- Added Kernel SU
+
+====================
+     21-12-2024
+====================
+- Added Turbo Charging Overlay
+- Build Dolby from AOSPA
+- Initial crDroid 11.0 Stable

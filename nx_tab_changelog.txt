@@ -1,8 +1,80 @@
 Highlights & Device Specific Changes:
-Build type: BETA
+Build type: Monthly
 Device: Nintendo Switch (nx_tab)
 Device maintainer: Ivy (Lost-Entrepreneur439)
 Required firmware: Hekate 6.1.0
+
+===== 02-10-2025 =====
+- Update to crDroid 11.2
+- nx: build: Fix bootloader rules for target-files target
+- nx: sepolicy: Interact with hwservicemanager correctly
+- bootfiles: Update emmc note
+- devicesettings: update to sdk 33
+- devicesettings: Use SettingsLib themes
+- fixup! extract: Extract bootloader blobs if available
+- tegra: gate edk2 on new flag
+- tegra: edk2: reduce revision date precision
+- Swap fwk matrix include from := -> +=
+- common: Use hal_attribute_hwservice macro
+- common: vendor: Allow Power HAL to access persist.vendor.power.brick
+- Revert "mm: introduce ultra kernel samepage merging"
+
+===== 01-19-2025 =====
+- Update to crDroid 11.1
+- uscript: match L4T in function and style
+- bootfiles: android.ini rework
+- nx: sepolicy: More sepolicy
+- nx: sepolicy: Label new vendor joycond properties
+- nx: sepolicy: Allow hal_health_default to access sysfs
+- nx: powerhal: remove useless xml
+- Reapply "nx: Upgrade to new AIDL joycond"
+- nx: include joycond sepolicy if present
+- nx: sepolicy: Move most joycon sepolicy to joycond repo
+- vendor: Move public libraries to tegra-common
+- Move bootloader build rules to build tasks
+- vendor: Use copy-files for firmware targets and bootfiles
+- nx: Move init.lkm.rc to copy-files
+- nx: Copy NVRAM per SKU
+- nx: Fetch nx HOS FW and bl33 blobs using external source type
+- vendor: Move oemcrypto to tegra-common
+- vendor: Use copy-files for firmware targets
+- Convert Android.mk rules to bp and copy-files
+- fixup! extract: Pull available bootloader images
+- extract: Support unstripping elf files
+- extract: Better report missing files
+- extract: Support cached extract
+- tegra: add optional dolby HALs to matrix
+- extract: nvgpu: Patch for forked composer utils
+- overlay: Sync pinner overlay with gs201
+- overlay: Tune home/webview pins
+- Enable GL comp backpressure
+- extract: Support single file url fetching
+- vendor: Import rel-shield-r oemcrypto
+- vendor: Import rel-shield-r public libraries
+- Move bootloader build rules to build tasks
+- Remove wireguard support
+- Revert "flash_packages: Add mformat symlink"
+- shims: Drop nvos shim
+- Convert Android.mk rules to bp and copy-files
+- Add some soong config variables
+- extract: mkdir -p prime folder when priming cache
+- Reapply "joycond: convert to binderized AIDL HAL"
+- joycond: sepolicy
+- joycon: minor refactor & fixes
+- Convert makefile to blueprint
+- Add stubs for missing functions in aidl v2 interface
+- Support product specific configs
+- cypress-fmac-upstream: Fix perl path
+- Revert "soc: tegra: import new trusty smc func"
+- Revert "pmc: redefine the send_smc call"
+- nvidia-nx: nuke oot nvethernetrm
+- t210: Move oemcrypto to tegra-common
+- common: nvgpu: Use a forked composer utils
+- common: Move oemcrypto from t210-common
+- common: Move bcm firmware for consistency
+
+===== 12-17-2024 =====
+- Initial stable release for crDroid 11
 
 ===== 12-14-2024 =====
 - nx: Explicitly set as an non-AB target

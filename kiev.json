@@ -1,28 +1,28 @@
 {
-	"response": [
-		{
-			"maintainer": "tilt-rgb",
-			"oem": "Motorola",
-			"device": "Moto G 5G",
-			"filename": "crDroidAndroid-15.0-20241216-kiev-v11.0.zip",
-			"download": "https://sourceforge.net/projects/crdroid/files/kiev/11.x/crDroidAndroid-15.0-20241216-kiev-v11.0.zip/download",
-			"timestamp": 1734378611,
-			"md5": "834659b256fc2bd7c5ca338bba8c8f86",
-			"sha256": "a5c2123974c12d3f786ab818892ceb43ebdb10d6ed27848709bac95832fd3360",
-			"size": 1248179707,
-			"version": "11.0",
-			"buildtype": "Weekly",
-			"forum": "https://xdaforums.com/t/rom-15-0-kiev-official-crdroid-v11-0-beta-12-11-2024.4701081/",
-			"gapps": "https://nikgapps.com/crdroid-official",
-			"firmware": "",
-			"modem": "",
-			"bootloader": "",
-			"recovery": "https://sourceforge.net/projects/crdroid/files/kiev/11.x/recovery/20241125-recovery.img/download",
-			"paypal": "https://www.paypal.com/donate/?business=XGU3BS92MSM2G&no_recurring=0&currency_code=USD",
-			"telegram": "https://t.me/MotoG5GOfficial",
-			"dt": "https://github.com/crdroidandroid/android_device_motorola_kiev",
-			"common-dt": "https://github.com/crdroidandroid/android_device_motorola_sm7250-common",
-			"kernel": "https://github.com/crdroidandroid/android_kernel_motorola_sm7250"
-		}
-	]
+    "response": [
+        {
+            "maintainer": "tilt-rgb",
+            "oem": "Motorola",
+            "device": "Moto G 5G",
+            "filename": "crDroidAndroid-15.0-20250209-kiev-v11.2.zip",
+            "download": "https://sourceforge.net/projects/crdroid/files/kiev/11.x/crDroidAndroid-15.0-20250209-kiev-v11.2.zip/download",
+            "timestamp": 1739096530,
+            "md5": "a54441ee6716d50f2023ccae4789a6c0",
+            "sha256": "047dd59426f204f542af21d0e5d8e461f2853e0771815c1dc2e231a69b4f708d",
+            "size": 1302191210,
+            "version": "11.2",
+            "buildtype": "Weekly",
+            "forum": "https://xdaforums.com/t/rom-15-0-kiev-official-crdroid-v11-0-beta-12-11-2024.4701081/",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Config-Releases/Android-15/08-Feb-2025/NikGapps-tiltrgb-arm64-15-20250208-unofficial.zip/download",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "https://sourceforge.net/projects/crdroid/files/kiev/11.x/recovery/20241125-recovery.img/download",
+            "paypal": "https://www.paypal.com/donate/?business=XGU3BS92MSM2G&no_recurring=0&currency_code=USD",
+            "telegram": "https://t.me/MotoG5GOfficial",
+            "dt": "https://github.com/crdroidandroid/android_device_motorola_kiev",
+            "common-dt": "https://github.com/crdroidandroid/android_device_motorola_sm7250-common",
+            "kernel": "https://github.com/crdroidandroid/android_kernel_motorola_sm7250"
+        }
+    ]
 }

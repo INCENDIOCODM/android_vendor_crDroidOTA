@@ -2,9 +2,83 @@
 Highlights & Device Specific Changes:
 =====================================
 
-Build type: BETA
+Build type: Weekly
 Device: Redmi Note 12 5G / Poco X5 5G
 Device maintainer: Ishaan
+
+===== 10-02-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* Android February 2025 Security Update (android-15.0.0_r14)
+* stone: Do not balance msm_drm and kgsl_3d0 IRQs
+* Fixed "Less boring heads-up" option (crdroid > notifications)
+* Added compact heads-up toggle (crdroid > notifications)
+* Moved Circle to search toggle to navigation gesture settings to facilate use with 3rd party launchers
+* Moved navigation gesture settings to Settings > System    
+* Fixed google's battery widget not working
+* Fixed crash on Locale tile long press
+* Updated translations
+* Various fixes and improvements
+* Improved overall stability and performance
+
+===== 07-02-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* Launcher3: Update folder preview and background color
+* SystemUI: Apply burn-in translations to weather view as well
+* Various fixes and improvements
+* Improved overall stability and performance
+
+===== 03-02-2025 =====
+
+* Certification: update props to the latest lynx beta
+* DeskClock: Fix angles in dynamic icon
+* SystemUI: Fix Flashlight tile for A11 QS style
+* SystemUI: Fix Internet Tile showing no service
+* Bluetooth: fetch battery level from any device
+* Status Bar Tuner: Fix preference icon tint
+* AudioService: do not block focus request from applications compiled with lower version sdks
+* fixup! base: Allow customizing volume stream steps
+* Updated themed icons
+* Updated Twelve, Glimpse, Eleven
+* Updated translations
+
+===== 24-01-2025 =====
+
+* Synced with latest crDroidAndroid source code
+* Improved animations
+* Address some sepolicy denials
+
+===== 19-01-2025 =====
+
+* Initial Android 15 QPR1 + January 2025 Security Update
+* stone: Update blobs from sunstone V816.0.9.0.UMQMIXM
+* stone: Update kernel from sunstone V816.0.9.0.UMQMIXM
+* stone: wlan: Enable Optimized Power Management
+* Switch to split shade QS for landscape mode
+* Added toggle to allow application downgrade (crdroid > misc)
+* Added more weather elements for custom weather on lockscreen (crdroid > lockscreen)
+* Switching between smartspace and custom weather requires SystemUI/System restart
+* Allow disabling private DNS for VPN (Settings > Network > DNS)
+* Added Circle to Search support - Requires Google Search (Launcher settings > misc)
+* Reworked QS theme color
+* Various fixes and improvements
+* Improved overall stability and performance
+
+===== 28-12-2024 =====
+
+* Fixed lockscreen charging info
+* Remove "SIM x is HD capable" message
+* Update pinner service for pixel_fw
+
+===== 25-12-2024 =====
+
+* Fixed offline charging
+
+===== 24-12-2024 =====
+
+* Clean flash is required to switch from BETA to Stable build
+* Initial crDroid v11 Stable release
 
 ===== 09-12-2024 =====
 
